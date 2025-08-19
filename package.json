@@ -1,0 +1,21 @@
+{
+  "name": "salesforce-color-themes",
+  "displayName": "salesforce-color-themes",
+  "description": "VSCode color themes based on the Salesforce Lightning Design System",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.103.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Salesforce Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Salesforce Dark-color-theme.json"
+      }
+    ]
+  }
+}
