@@ -1,5 +1,1016 @@
 {
 "themeColorMappings": {
+  "cosmo-light": {
+    "foreground": {
+      "value": "#5c5c5c",
+      "hook": "--sds-g-color-neutral-base-40"
+    },
+    "descriptionForeground": {
+      "value": "#5c5c5c",
+      "hook": "--sds-g-color-neutral-base-40"
+    },
+    "focusBorder": {
+      "value": "#066afe",
+      "hook": "--sds-g-color-palette-electric-blue-50"
+    },
+    "selection.background": {
+      "value": "#aacbff",
+      "hook": "--sds-g-color-palette-electric-blue-80"
+    },
+    "scrollbar.shadow": {
+      "value": "#e5e5e5",
+      "hook": "--sds-g-color-neutral-base-90"
+    },
+    "activityBar.foreground": {
+      "value": "#0250d9",
+      "hook": "--sds-g-color-palette-electric-blue-40"
+    },
+    "activityBar.background": {
+      "value": "#f3f3f3",
+      "hook": "--sds-g-color-neutral-base-95"
+    },
+    "activityBar.inactiveForeground": {
+      "value": "#5c5c5c",
+      "hook": "--sds-g-color-neutral-base-40"
+    },
+    "activityBarBadge.foreground": {
+      "value": "#ffffff",
+      "hook": "--sds-g-color-neutral-base-100"
+    },
+    "activityBarBadge.background": {
+      "value": "#0176d3",
+      "hook": "--sds-g-color-palette-electric-blue-45"
+    },
+    "sideBar.background": {
+      "value": "#f3f3f3",
+      "hook": "--sds-g-color-neutral-base-95"
+    },
+    "sideBar.foreground": {
+      "value": "#5c5c5c",
+      "hook": "--sds-g-color-neutral-base-40"
+    },
+    "sideBarSectionHeader.background": {
+      "value": "#00000000",
+      "hook": "--sds-g-color-neutral-base-0"
+    },
+    "sideBarSectionHeader.foreground": {
+      "value": "#5c5c5c",
+      "hook": "--sds-g-color-neutral-base-40"
+    },
+    "sideBarSectionHeader.border": {
+      "value": "#f3f3f3",
+      "hook": "--sds-g-color-neutral-base-95"
+    },
+    "sideBarTitle.foreground": {
+      "value": "#747474",
+      "hook": "--sds-g-color-neutral-base-50"
+    },
+    "list.inactiveSelectionBackground": {
+      "value": "#e5e5e5",
+      "hook": "--sds-g-color-neutral-base-90"
+    },
+    "list.inactiveSelectionForeground": {
+      "value": "#616161",
+      "hook": "--sds-g-color-neutral-base-42"
+    },
+    "list.hoverBackground": {
+      "value": "#e5e5e5",
+      "hook": "--sds-g-color-neutral-base-90"
+    },
+    "list.hoverForeground": {
+      "value": "#616161",
+      "hook": "--sds-g-color-neutral-base-42"
+    },
+    "list.errorForeground": {
+      "value": "#b60554",
+      "hook": "--sds-g-color-error-base-50"
+    },
+    "list.activeSelectionBackground": {
+      "value": "#066afe9d",
+      "hook": "--sds-g-color-palette-electric-blue-50"
+    },
+    "list.activeSelectionForeground": {
+      "value": "#ffffff",
+      "hook": "--sds-g-color-neutral-base-100"
+    },
+    "tree.indentGuidesStroke": {
+      "value": "#a0a0a0",
+      "hook": "--sds-g-color-neutral-base-65"
+    },
+    "list.dropBackground": {
+      "value": "#d6ebff",
+      "hook": "--sds-g-color-palette-electric-blue-85"
+    },
+    "list.highlightForeground": {
+      "value": "#066afe",
+      "hook": "--sds-g-color-palette-electric-blue-50"
+    },
+    "list.focusBackground": {
+      "value": "#d6ebff",
+      "hook": "--sds-g-color-palette-electric-blue-85"
+    },
+    "list.focusForeground": {
+      "value": "#5c5c5c",
+      "hook": "--sds-g-color-neutral-base-40"
+    },
+    "listFilterWidget.background": {
+      "value": "#ffba90",
+      "hook": "--sds-g-color-palette-orange-80"
+    },
+    "listFilterWidget.outline": {
+      "value": "#00000000",
+      "hook": "--sds-g-color-neutral-base-0"
+    },
+    "listFilterWidget.noMatchesOutline": {
+      "value": "#ba0517",
+      "hook": "--sds-g-color-error-base-50"
+    },
+    "statusBar.foreground": {
+      "value": "#ffffff",
+      "hook": "--sds-g-color-neutral-base-100"
+    },
+    "statusBar.background": {
+      "value": "#066afe",
+      "hook": "--sds-g-color-palette-electric-blue-50"
+    },
+    "statusBarItem.hoverBackground": {
+      "value": "#ffffff1f",
+      "hook": "--sds-g-color-neutral-base-100"
+    },
+    "statusBar.debuggingBackground": {
+      "value": "#9602c7",
+      "hook": "--sds-g-color-palette-purple-50"
+    },
+    "statusBar.debuggingForeground": {
+      "value": "#ffffff",
+      "hook": "--sds-g-color-neutral-base-100"
+    },
+    "statusBar.noFolderBackground": {
+      "value": "#066afe",
+      "hook": "--sds-g-color-palette-electric-blue-50"
+    },
+    "statusBar.noFolderForeground": {
+      "value": "#ffffff",
+      "hook": "--sds-g-color-neutral-base-100"
+    },
+    "statusBarItem.remoteBackground": {
+      "value": "#066afe",
+      "hook": "--sds-g-color-palette-electric-blue-50"
+    },
+    "statusBarItem.remoteForeground": {
+      "value": "#ffffff",
+      "hook": "--sds-g-color-neutral-base-100"
+    },
+    "titleBar.activeBackground": {
+      "value": "#f3f3f3",
+      "hook": "--sds-g-color-neutral-base-95"
+    },
+    "titleBar.activeForeground": {
+      "value": "#444444",
+      "hook": "--sds-g-color-neutral-base-30"
+    },
+    "titleBar.inactiveBackground": {
+      "value": "#f3f3f3",
+      "hook": "--sds-g-color-neutral-base-95"
+    },
+    "titleBar.inactiveForeground": {
+      "value": "#44444499",
+      "hook": "--sds-g-color-neutral-base-30"
+    },
+    "titleBar.border": {
+      "value": "#00000000",
+      "hook": "--sds-g-color-neutral-base-0"
+    },
+    "menubar.selectionForeground": {
+      "value": "#444444",
+      "hook": "--sds-g-color-neutral-base-30"
+    },
+    "menubar.selectionBackground": {
+      "value": "#0000001a",
+      "hook": "--sds-g-color-neutral-base-0"
+    },
+    "menu.foreground": {
+      "value": "#5c5c5c",
+      "hook": "--sds-g-color-neutral-base-40"
+    },
+    "menu.background": {
+      "value": "#ffffff",
+      "hook": "--sds-g-color-neutral-base-100"
+    },
+    "menu.selectionForeground": {
+      "value": "#ffffff",
+      "hook": "--sds-g-color-neutral-base-100"
+    },
+    "menu.selectionBackground": {
+      "value": "#066afe",
+      "hook": "--sds-g-color-palette-electric-blue-50"
+    },
+    "menu.selectionBorder": {
+      "value": "#00000000",
+      "hook": "--sds-g-color-neutral-base-0"
+    },
+    "menu.separatorBackground": {
+      "value": "#939393",
+      "hook": "--sds-g-color-neutral-base-60"
+    },
+    "menu.border": {
+      "value": "#18181885",
+      "hook": "--sds-g-color-neutral-base-10"
+    },
+    "button.background": {
+      "value": "#0176d3",
+      "hook": "--sds-g-color-palette-electric-blue-45"
+    },
+    "button.foreground": {
+      "value": "#ffffff",
+      "hook": "--sds-g-color-neutral-base-100"
+    },
+    "button.hoverBackground": {
+      "value": "#014486",
+      "hook": "--sds-g-color-palette-electric-blue-35"
+    },
+    "button.secondaryForeground": {
+      "value": "#ffffff",
+      "hook": "--sds-g-color-neutral-base-100"
+    },
+    "button.secondaryBackground": {
+      "value": "#5c5c5c",
+      "hook": "--sds-g-color-neutral-base-40"
+    },
+    "button.secondaryHoverBackground": {
+      "value": "#444444",
+      "hook": "--sds-g-color-neutral-base-30"
+    },
+    "input.background": {
+      "value": "#ffffff",
+      "hook": "--sds-g-color-neutral-base-100"
+    },
+    "input.border": {
+      "value": "#00000000",
+      "hook": "--sds-g-color-neutral-base-0"
+    },
+    "input.foreground": {
+      "value": "#5c5c5c",
+      "hook": "--sds-g-color-neutral-base-40"
+    },
+    "inputOption.activeBackground": {
+      "value": "#066afe33",
+      "hook": "--sds-g-color-palette-electric-blue-50"
+    },
+    "inputOption.activeBorder": {
+      "value": "#0176d300",
+      "hook": "--sds-g-color-palette-electric-blue-45"
+    },
+    "inputOption.activeForeground": {
+      "value": "#000000",
+      "hook": "--sds-g-color-neutral-base-0"
+    },
+    "input.placeholderForeground": {
+      "value": "#747474",
+      "hook": "--sds-g-color-neutral-base-50"
+    },
+    "textLink.foreground": {
+      "value": "#066afe",
+      "hook": "--sds-g-color-palette-electric-blue-50"
+    },
+    "editor.background": {
+      "value": "#ffffff",
+      "hook": "--sds-g-color-neutral-base-100"
+    },
+    "editor.foreground": {
+      "value": "#242424",
+      "hook": "--sds-g-color-neutral-base-15"
+    },
+    "editorLineNumber.foreground": {
+      "value": "#a0a0a0",
+      "hook": "--sds-g-color-neutral-base-65"
+    },
+    "editorCursor.foreground": {
+      "value": "#000000",
+      "hook": "--sds-g-color-neutral-base-0"
+    },
+    "editorCursor.background": {
+      "value": "#ffffff",
+      "hook": "--sds-g-color-neutral-base-100"
+    },
+    "editor.selectionBackground": {
+      "value": "#add6ff",
+      "hook": "--sds-g-color-palette-electric-blue-80"
+    },
+    "editor.inactiveSelectionBackground": {
+      "value": "#e5ebf180",
+      "hook": "--sds-g-color-palette-electric-blue-90"
+    },
+    "editorWhitespace.foreground": {
+      "value": "#33333333",
+      "hook": "--sds-g-color-neutral-base-20"
+    },
+    "editor.selectionHighlightBackground": {
+      "value": "#add6ff80",
+      "hook": "--sds-g-color-palette-electric-blue-80"
+    },
+    "editor.selectionHighlightBorder": {
+      "value": "#495F77",
+      "hook": "--sds-g-color-palette-blue-35"
+    },
+    "editor.findMatchBackground": {
+      "value": "#a8ac94",
+      "hook": "--sds-g-color-neutral-base-65"
+    },
+    "editor.findMatchBorder": {
+      "value": "#979b83",
+      "hook": "--sds-g-color-neutral-base-60"
+    },
+    "editor.findMatchHighlightBackground": {
+      "value": "#ea5c0055",
+      "hook": "--sds-g-color-palette-orange-50"
+    },
+    "editor.findMatchHighlightBorder": {
+      "value": "#ffffff00",
+      "hook": "--sds-g-color-neutral-base-100"
+    },
+    "editor.findRangeHighlightBackground": {
+      "value": "#b4b4b44d",
+      "hook": "--sds-g-color-neutral-base-70"
+    },
+    "editor.findRangeHighlightBorder": {
+      "value": "#ffffff00",
+      "hook": "--sds-g-color-neutral-base-100"
+    },
+    "editor.rangeHighlightBackground": {
+      "value": "#fdff0033",
+      "hook": "--sds-g-color-warning-base-70"
+    },
+    "editor.rangeHighlightBorder": {
+      "value": "#ffffff00",
+      "hook": "--sds-g-color-neutral-base-100"
+    },
+    "editor.hoverHighlightBackground": {
+      "value": "#add6ff26",
+      "hook": "--sds-g-color-palette-electric-blue-80"
+    },
+    "editor.wordHighlightStrongBackground": {
+      "value": "#0e639c40",
+      "hook": "--sds-g-color-palette-blue-40"
+    },
+    "editor.wordHighlightBackground": {
+      "value": "#57575740",
+      "hook": "--sds-g-color-neutral-base-38"
+    },
+    "editor.lineHighlightBackground": {
+      "value": "#ffffff0A",
+      "hook": "--sds-g-color-neutral-base-100"
+    },
+    "editor.lineHighlightBorder": {
+      "value": "#eeeeee",
+      "hook": "--sds-g-color-neutral-base-92"
+    },
+    "editorLineNumber.activeForeground": {
+      "value": "#a0a0a0",
+      "hook": "--sds-g-color-neutral-base-65"
+    },
+    "editorLink.activeForeground": {
+      "value": "#0000ff",
+      "hook": "--sds-g-color-palette-blue-50"
+    },
+    "editorIndentGuide.background1": {
+      "value": "#e5e5e5",
+      "hook": "--sds-g-color-neutral-base-90"
+    },
+    "editorIndentGuide.activeBackground1": {
+      "value": "#e5e5e5",
+      "hook": "--sds-g-color-neutral-base-90"
+    },
+    "editorRuler.foreground": {
+      "value": "#e5e5e5",
+      "hook": "--sds-g-color-neutral-base-90"
+    },
+    "editorBracketMatch.background": {
+      "value": "#0064001a",
+      "hook": "--sds-g-color-success-base-10"
+    },
+    "editorBracketMatch.border": {
+      "value": "#c9c9c9",
+      "hook": "--sds-g-color-neutral-base-80"
+    },
+    "editor.foldBackground": {
+      "value": "#add6ff4d",
+      "hook": "--sds-g-color-palette-electric-blue-80"
+    },
+    "editorOverviewRuler.background": {
+      "value": "#25252500",
+      "hook": "--sds-g-color-neutral-base-15"
+    },
+    "editorOverviewRuler.border": {
+      "value": "#7f7f7f4d",
+      "hook": "--sds-g-color-neutral-base-52"
+    },
+    "editorError.foreground": {
+      "value": "#b60554",
+      "hook": "--sds-g-color-error-base-50"
+    },
+    "editorError.background": {
+      "value": "#B73A3400",
+      "hook": "--sds-g-color-error-base-40"
+    },
+    "editorError.border": {
+      "value": "#ffffff00",
+      "hook": "--sds-g-color-neutral-base-100"
+    },
+    "editorWarning.foreground": {
+      "value": "#e9a700",
+      "hook": "--sds-g-color-warning-base-60"
+    },
+    "editorWarning.background": {
+      "value": "#A9904000",
+      "hook": "--sds-g-color-warning-base-40"
+    },
+    "editorWarning.border": {
+      "value": "#ffffff00",
+      "hook": "--sds-g-color-neutral-base-100"
+    },
+    "editorInfo.foreground": {
+      "value": "#75beff",
+      "hook": "--sds-g-color-info-base-60"
+    },
+    "editorInfo.background": {
+      "value": "#4490BF00",
+      "hook": "--sds-g-color-info-base-40"
+    },
+    "editorInfo.border": {
+      "value": "#4490BF00",
+      "hook": "--sds-g-color-info-base-40"
+    },
+    "editorGutter.background": {
+      "value": "#ffffff",
+      "hook": "--sds-g-color-neutral-base-100"
+    },
+    "editorGutter.modifiedBackground": {
+      "value": "#66afe0",
+      "hook": "--sds-g-color-palette-cyan-70"
+    },
+    "editorGutter.addedBackground": {
+      "value": "#81b88b",
+      "hook": "--sds-g-color-success-base-70"
+    },
+    "editorGutter.deletedBackground": {
+      "value": "#ca4b51",
+      "hook": "--sds-g-color-error-base-55"
+    },
+    "editorGutter.foldingControlForeground": {
+      "value": "#444444",
+      "hook": "--sds-g-color-neutral-base-30"
+    },
+    "editorCodeLens.foreground": {
+      "value": "#939393",
+      "hook": "--sds-g-color-neutral-base-60"
+    },
+    "editorGroup.border": {
+      "value": "#e5e5e5",
+      "hook": "--sds-g-color-neutral-base-90"
+    },
+    "diffEditor.insertedTextBackground": {
+      "value": "#9bb95533",
+      "hook": "--sds-g-color-success-base-70"
+    },
+    "diffEditor.removedTextBackground": {
+      "value": "#ff000033",
+      "hook": "--sds-g-color-error-base-60"
+    },
+    "diffEditor.border": {
+      "value": "#e5e5e5",
+      "hook": "--sds-g-color-neutral-base-90"
+    },
+    "panel.background": {
+      "value": "#f3f3f3",
+      "hook": "--sds-g-color-neutral-base-95"
+    },
+    "panel.border": {
+      "value": "#80808059",
+      "hook": "--sds-g-color-neutral-base-52"
+    },
+    "panelTitle.activeBorder": {
+      "value": "#444444",
+      "hook": "--sds-g-color-neutral-base-30"
+    },
+    "panelTitle.activeForeground": {
+      "value": "#444444",
+      "hook": "--sds-g-color-neutral-base-30"
+    },
+    "panelTitle.inactiveForeground": {
+      "value": "#444444bf",
+      "hook": "--sds-g-color-neutral-base-30"
+    },
+    "badge.background": {
+      "value": "#c9c9c9",
+      "hook": "--sds-g-color-neutral-base-80"
+    },
+    "badge.foreground": {
+      "value": "#444444",
+      "hook": "--sds-g-color-neutral-base-30"
+    },
+    "terminal.foreground": {
+      "value": "#0b5cab",
+      "hook": "--sds-g-color-palette-electric-blue-40"
+    },
+    "terminal.selectionBackground": {
+      "value": "#18181840",
+      "hook": "--sds-g-color-neutral-base-10"
+    },
+    "terminalCursor.background": {
+      "value": "#1b96ff",
+      "hook": "--sds-g-color-palette-electric-blue-55"
+    },
+    "terminalCursor.foreground": {
+      "value": "#0b5cab",
+      "hook": "--sds-g-color-palette-electric-blue-40"
+    },
+    "terminal.border": {
+      "value": "#93939359",
+      "hook": "--sds-g-color-neutral-base-60"
+    },
+    "terminal.ansiBlack": {
+      "value": "#181818",
+      "hook": "--sds-g-color-neutral-base-10"
+    },
+    "terminal.ansiBlue": {
+      "value": "#014486",
+      "hook": "--sds-g-color-palette-electric-blue-35"
+    },
+    "terminal.ansiBrightBlack": {
+      "value": "#747474",
+      "hook": "--sds-g-color-neutral-base-50"
+    },
+    "terminal.ansiBrightBlue": {
+      "value": "#0176d3",
+      "hook": "--sds-g-color-palette-electric-blue-45"
+    },
+    "terminal.ansiBrightCyan": {
+      "value": "#01c3b3",
+      "hook": "--sds-g-color-palette-teal-70"
+    },
+    "terminal.ansiBrightGreen": {
+      "value": "#45c65a",
+      "hook": "--sds-g-color-palette-green-70"
+    },
+    "terminal.ansiBrightMagenta": {
+      "value": "#cb65ff",
+      "hook": "--sds-g-color-palette-violet-60"
+    },
+    "terminal.ansiBrightRed": {
+      "value": "#fe8f7d",
+      "hook": "--sds-g-color-palette-red-70"
+    },
+    "terminal.ansiBrightWhite": {
+      "value": "#a0a0a0",
+      "hook": "--sds-g-color-neutral-base-65"
+    },
+    "terminal.ansiBrightYellow": {
+      "value": "#e4a201",
+      "hook": "--sds-g-color-palette-yellow-70"
+    },
+    "terminal.ansiCyan": {
+      "value": "#06a59a",
+      "hook": "--sds-g-color-palette-teal-60"
+    },
+    "terminal.ansiGreen": {
+      "value": "#3ba755",
+      "hook": "--sds-g-color-success-base-55"
+    },
+    "terminal.ansiMagenta": {
+      "value": "#ba01ff",
+      "hook": "--sds-g-color-palette-violet-50"
+    },
+    "terminal.ansiRed": {
+      "value": "#fe5c4c",
+      "hook": "--sds-g-color-palette-red-60"
+    },
+    "terminal.ansiWhite": {
+      "value": "#5c5c5c",
+      "hook": "--sds-g-color-neutral-base-40"
+    },
+    "terminal.ansiYellow": {
+      "value": "#ca8501",
+      "hook": "--sds-g-color-warning-base-55"
+    },
+    "breadcrumb.background": {
+      "value": "#ffffff",
+      "hook": "--sds-g-color-neutral-base-100"
+    },
+    "breadcrumb.foreground": {
+      "value": "#5c5c5ccc",
+      "hook": "--sds-g-color-neutral-base-40"
+    },
+    "breadcrumb.focusForeground": {
+      "value": "#5c5c5c",
+      "hook": "--sds-g-color-neutral-base-40"
+    },
+    "editorGroupHeader.tabsBackground": {
+      "value": "#ffffff",
+      "hook": "--sds-g-color-neutral-base-100"
+    },
+    "editorGroupHeader.tabsBorder": {
+      "value": "#ffffff",
+      "hook": "--sds-g-color-neutral-base-100"
+    },
+    "tab.activeForeground": {
+      "value": "#444444",
+      "hook": "--sds-g-color-neutral-base-30"
+    },
+    "tab.border": {
+      "value": "#ffffff",
+      "hook": "--sds-g-color-neutral-base-100"
+    },
+    "tab.activeBackground": {
+      "value": "#ffffff",
+      "hook": "--sds-g-color-neutral-base-100"
+    },
+    "tab.activeBorder": {
+      "value": "#0250d9",
+      "hook": "--sds-g-color-palette-electric-blue-40"
+    },
+    "tab.activeBorderTop": {
+      "value": "#00000000",
+      "hook": "--sds-g-color-neutral-base-0"
+    },
+    "tab.inactiveBackground": {
+      "value": "#ffffff",
+      "hook": "--sds-g-color-neutral-base-100"
+    },
+    "tab.inactiveForeground": {
+      "value": "#444444b3",
+      "hook": "--sds-g-color-neutral-base-30"
+    },
+    "scrollbarSlider.background": {
+      "value": "#5c5c5c66",
+      "hook": "--sds-g-color-neutral-base-40"
+    },
+    "scrollbarSlider.hoverBackground": {
+      "value": "#5c5c5cb3",
+      "hook": "--sds-g-color-neutral-base-40"
+    },
+    "scrollbarSlider.activeBackground": {
+      "value": "#18181899",
+      "hook": "--sds-g-color-neutral-base-10"
+    },
+    "progressBar.background": {
+      "value": "#0176d3",
+      "hook": "--sds-g-color-palette-electric-blue-45"
+    },
+    "widget.shadow": {
+      "value": "#18181829",
+      "hook": "--sds-g-color-neutral-base-10"
+    },
+    "editorWidget.foreground": {
+      "value": "#5c5c5c",
+      "hook": "--sds-g-color-neutral-base-40"
+    },
+    "editorWidget.background": {
+      "value": "#f3f3f3",
+      "hook": "--sds-g-color-neutral-base-95"
+    },
+    "editorWidget.resizeBorder": {
+      "value": "#c9c9c9",
+      "hook": "--sds-g-color-neutral-base-80"
+    },
+    "pickerGroup.border": {
+      "value": "#c9c9c9",
+      "hook": "--sds-g-color-neutral-base-80"
+    },
+    "pickerGroup.foreground": {
+      "value": "#066afe",
+      "hook": "--sds-g-color-palette-electric-blue-50"
+    },
+    "debugToolBar.background": {
+      "value": "#f3f3f3",
+      "hook": "--sds-g-color-neutral-base-95"
+    },
+    "debugToolBar.border": {
+      "value": "#e5e5e5",
+      "hook": "--sds-g-color-neutral-base-90"
+    },
+    "notifications.foreground": {
+      "value": "#5c5c5c",
+      "hook": "--sds-g-color-neutral-base-40"
+    },
+    "notifications.background": {
+      "value": "#f3f3f3",
+      "hook": "--sds-g-color-neutral-base-95"
+    },
+    "notificationToast.border": {
+      "value": "#e5e5e5",
+      "hook": "--sds-g-color-neutral-base-90"
+    },
+    "notificationsErrorIcon.foreground": {
+      "value": "#b60554",
+      "hook": "--sds-g-color-error-base-50"
+    },
+    "notificationsWarningIcon.foreground": {
+      "value": "#e9a700",
+      "hook": "--sds-g-color-warning-base-60"
+    },
+    "notificationsInfoIcon.foreground": {
+      "value": "#75beff",
+      "hook": "--sds-g-color-info-base-60"
+    },
+    "notificationCenter.border": {
+      "value": "#e5e5e5",
+      "hook": "--sds-g-color-neutral-base-90"
+    },
+    "notificationCenterHeader.foreground": {
+      "value": "#5c5c5c",
+      "hook": "--sds-g-color-neutral-base-40"
+    },
+    "notificationCenterHeader.background": {
+      "value": "#e5e5e5",
+      "hook": "--sds-g-color-neutral-base-90"
+    },
+    "notifications.border": {
+      "value": "#e5e5e5",
+      "hook": "--sds-g-color-neutral-base-90"
+    },
+    "gitDecoration.addedResourceForeground": {
+      "value": "#587c0c",
+      "hook": "--sds-g-color-success-base-50"
+    },
+    "gitDecoration.conflictingResourceForeground": {
+      "value": "#6c6cc4",
+      "hook": "--sds-g-color-palette-violet-55"
+    },
+    "gitDecoration.deletedResourceForeground": {
+      "value": "#ad0707",
+      "hook": "--sds-g-color-error-base-45"
+    },
+    "gitDecoration.ignoredResourceForeground": {
+      "value": "#8e8e90",
+      "hook": "--sds-g-color-neutral-base-58"
+    },
+    "gitDecoration.modifiedResourceForeground": {
+      "value": "#895503",
+      "hook": "--sds-g-color-warning-base-50"
+    },
+    "gitDecoration.stageDeletedResourceForeground": {
+      "value": "#ad0707",
+      "hook": "--sds-g-color-error-base-45"
+    },
+    "gitDecoration.stageModifiedResourceForeground": {
+      "value": "#895503",
+      "hook": "--sds-g-color-warning-base-50"
+    },
+    "gitDecoration.submoduleResourceForeground": {
+      "value": "#1258a7",
+      "hook": "--sds-g-color-palette-blue-45"
+    },
+    "gitDecoration.untrackedResourceForeground": {
+      "value": "#007100",
+      "hook": "--sds-g-color-success-base-45"
+    },
+    "editorMarkerNavigation.background": {
+      "value": "#ffffff",
+      "hook": "--sds-g-color-neutral-base-100"
+    },
+    "editorMarkerNavigationError.background": {
+      "value": "#b60554",
+      "hook": "--sds-g-color-error-base-50"
+    },
+    "editorMarkerNavigationWarning.background": {
+      "value": "#e9a700",
+      "hook": "--sds-g-color-warning-base-60"
+    },
+    "editorMarkerNavigationInfo.background": {
+      "value": "#75beff",
+      "hook": "--sds-g-color-info-base-60"
+    },
+    "merge.currentHeaderBackground": {
+      "value": "#A4E3D680",
+      "hook": "--sds-g-color-palette-teal-80"
+    },
+    "merge.currentContentBackground": {
+      "value": "#DBF4EF80",
+      "hook": "--sds-g-color-palette-teal-90"
+    },
+    "merge.incomingHeaderBackground": {
+      "value": "#A6CFFF80",
+      "hook": "--sds-g-color-palette-electric-blue-80"
+    },
+    "merge.incomingContentBackground": {
+      "value": "#DBECFF80",
+      "hook": "--sds-g-color-palette-electric-blue-90"
+    },
+    "merge.commonHeaderBackground": {
+      "value": "#BFBFBF80",
+      "hook": "--sds-g-color-neutral-base-75"
+    },
+    "merge.commonContentBackground": {
+      "value": "#E5E5E580",
+      "hook": "--sds-g-color-neutral-base-90"
+    },
+    "editorSuggestWidget.background": {
+      "value": "#f3f3f3",
+      "hook": "--sds-g-color-neutral-base-95"
+    },
+    "editorSuggestWidget.border": {
+      "value": "#c9c9c9",
+      "hook": "--sds-g-color-neutral-base-80"
+    },
+    "editorSuggestWidget.foreground": {
+      "value": "#000000",
+      "hook": "--sds-g-color-neutral-base-0"
+    },
+    "editorSuggestWidget.highlightForeground": {
+      "value": "#066afe",
+      "hook": "--sds-g-color-palette-electric-blue-50"
+    },
+    "editorSuggestWidget.selectedBackground": {
+      "value": "#d6ebff",
+      "hook": "--sds-g-color-palette-electric-blue-85"
+    },
+    "editorHoverWidget.foreground": {
+      "value": "#5c5c5c",
+      "hook": "--sds-g-color-neutral-base-40"
+    },
+    "editorHoverWidget.background": {
+      "value": "#f3f3f3",
+      "hook": "--sds-g-color-neutral-base-95"
+    },
+    "editorHoverWidget.border": {
+      "value": "#c9c9c9",
+      "hook": "--sds-g-color-neutral-base-80"
+    },
+    "peekView.border": {
+      "value": "#0176d3",
+      "hook": "--sds-g-color-palette-electric-blue-45"
+    },
+    "peekViewEditor.background": {
+      "value": "#f2f8fc",
+      "hook": "--sds-g-color-palette-electric-blue-95"
+    },
+    "peekViewEditorGutter.background": {
+      "value": "#f2f8fc",
+      "hook": "--sds-g-color-palette-electric-blue-95"
+    },
+    "peekViewEditor.matchHighlightBackground": {
+      "value": "#f5d802de",
+      "hook": "--sds-g-color-warning-base-70"
+    },
+    "peekViewEditor.matchHighlightBorder": {
+      "value": "#dbc417",
+      "hook": "--sds-g-color-warning-base-65"
+    },
+    "peekViewResult.background": {
+      "value": "#f3f3f3",
+      "hook": "--sds-g-color-neutral-base-95"
+    },
+    "peekViewResult.fileForeground": {
+      "value": "#242424",
+      "hook": "--sds-g-color-neutral-base-15"
+    },
+    "peekViewResult.lineForeground": {
+      "value": "#5c5c5c",
+      "hook": "--sds-g-color-neutral-base-40"
+    },
+    "peekViewResult.matchHighlightBackground": {
+      "value": "#ea5c004d",
+      "hook": "--sds-g-color-palette-orange-50"
+    },
+    "peekViewResult.selectionBackground": {
+      "value": "#3399ff33",
+      "hook": "--sds-g-color-palette-blue-60"
+    },
+    "peekViewResult.selectionForeground": {
+      "value": "#5c5c5c",
+      "hook": "--sds-g-color-neutral-base-40"
+    },
+    "peekViewTitle.background": {
+      "value": "#ffffff",
+      "hook": "--sds-g-color-neutral-base-100"
+    },
+    "peekViewTitleDescription.foreground": {
+      "value": "#5c5c5ce6",
+      "hook": "--sds-g-color-neutral-base-40"
+    },
+    "peekViewTitleLabel.foreground": {
+      "value": "#444444",
+      "hook": "--sds-g-color-neutral-base-30"
+    },
+    "icon.foreground": {
+      "value": "#5c5c5c",
+      "hook": "--sds-g-color-neutral-base-40"
+    },
+    "checkbox.background": {
+      "value": "#ffffff",
+      "hook": "--sds-g-color-neutral-base-100"
+    },
+    "checkbox.foreground": {
+      "value": "#5c5c5c",
+      "hook": "--sds-g-color-neutral-base-40"
+    },
+    "checkbox.border": {
+      "value": "#00000000",
+      "hook": "--sds-g-color-neutral-base-0"
+    },
+    "dropdown.background": {
+      "value": "#ffffff",
+      "hook": "--sds-g-color-neutral-base-100"
+    },
+    "dropdown.foreground": {
+      "value": "#5c5c5c",
+      "hook": "--sds-g-color-neutral-base-40"
+    },
+    "dropdown.border": {
+      "value": "#00000000",
+      "hook": "--sds-g-color-neutral-base-0"
+    },
+    "minimapGutter.addedBackground": {
+      "value": "#81b88b",
+      "hook": "--sds-g-color-success-base-70"
+    },
+    "minimapGutter.modifiedBackground": {
+      "value": "#66afe0",
+      "hook": "--sds-g-color-palette-cyan-70"
+    },
+    "minimapGutter.deletedBackground": {
+      "value": "#ca4b51",
+      "hook": "--sds-g-color-error-base-55"
+    },
+    "minimap.findMatchHighlight": {
+      "value": "#a8ac9480",
+      "hook": "--sds-g-color-neutral-base-65"
+    },
+    "minimap.selectionHighlight": {
+      "value": "#add6ff80",
+      "hook": "--sds-g-color-palette-electric-blue-80"
+    },
+    "minimap.errorHighlight": {
+      "value": "#b60554",
+      "hook": "--sds-g-color-error-base-50"
+    },
+    "minimap.warningHighlight": {
+      "value": "#e9a700",
+      "hook": "--sds-g-color-warning-base-60"
+    },
+    "minimap.background": {
+      "value": "#ffffff",
+      "hook": "--sds-g-color-neutral-base-100"
+    },
+    "sideBar.dropBackground": {
+      "value": "#d6ebff",
+      "hook": "--sds-g-color-palette-electric-blue-85"
+    },
+    "editorGroup.emptyBackground": {
+      "value": "#ffffff",
+      "hook": "--sds-g-color-neutral-base-100"
+    },
+    "panelSection.border": {
+      "value": "#80808059",
+      "hook": "--sds-g-color-neutral-base-52"
+    },
+    "statusBarItem.activeBackground": {
+      "value": "#FFFFFF25",
+      "hook": "--sds-g-color-neutral-base-100"
+    },
+    "settings.headerForeground": {
+      "value": "#5c5c5c",
+      "hook": "--sds-g-color-neutral-base-40"
+    },
+    "settings.focusedRowBackground": {
+      "value": "#ffffff07",
+      "hook": "--sds-g-color-neutral-base-100"
+    },
+    "walkThrough.embeddedEditorBackground": {
+      "value": "#00000050",
+      "hook": "--sds-g-color-neutral-base-0"
+    },
+    "breadcrumb.activeSelectionForeground": {
+      "value": "#5c5c5c",
+      "hook": "--sds-g-color-neutral-base-40"
+    },
+    "editorGutter.commentRangeForeground": {
+      "value": "#444444",
+      "hook": "--sds-g-color-neutral-base-30"
+    },
+    "debugExceptionWidget.background": {
+      "value": "#f3f3f3",
+      "hook": "--sds-g-color-neutral-base-95"
+    },
+    "debugExceptionWidget.border": {
+      "value": "#e5e5e5",
+      "hook": "--sds-g-color-neutral-base-90"
+    }
+  },
+  "cosmo-dark": {
+    "foreground": {
+      "value": "#cccccc",
+      "hook": "--sds-g-color-neutral-base-80"
+    },
+    "descriptionForeground": {
+      "value": "#AEAEAE",
+      "hook": "--sds-g-color-neutral-base-70"
+    },
+    "scrollbar.shadow": {
+      "value": "#000000",
+      "hook": "--sds-g-color-neutral-base-0"
+    },
     "activityBar.foreground": {
       "value": "#7cb1fe",
       "hook": "--sds-g-color-palette-electric-blue-70"
@@ -16,6 +1027,10 @@
       "value": "#066afe",
       "hook": "--sds-g-color-palette-electric-blue-50"
     },
+    "activityBarBadge.foreground": {
+      "value": "#ffffff",
+      "hook": "--sds-g-color-neutral-base-100"
+    },
     "sideBar.background": {
       "value": "#181818",
       "hook": "--sds-g-color-neutral-base-10"
@@ -23,6 +1038,22 @@
     "sideBar.border": {
       "value": "#181818",
       "hook": "--sds-g-color-neutral-base-10"
+    },
+    "sideBar.foreground": {
+      "value": "#cccccc",
+      "hook": "--sds-g-color-neutral-base-80"
+    },
+    "sideBarSectionHeader.background": {
+      "value": "#00000000",
+      "hook": "--sds-g-color-neutral-base-0"
+    },
+    "sideBarSectionHeader.foreground": {
+      "value": "#cccccc",
+      "hook": "--sds-g-color-neutral-base-80"
+    },
+    "sideBarTitle.foreground": {
+      "value": "#bbbbbb",
+      "hook": "--sds-g-color-neutral-base-75"
     },
     "list.inactiveSelectionBackground": {
       "value": "#242424",
@@ -40,6 +1071,18 @@
       "value": "#ff538a",
       "hook": "--sds-g-color-error-base-60"
     },
+    "listFilterWidget.background": {
+      "value": "#653723",
+      "hook": "--sds-g-color-palette-orange-30"
+    },
+    "listFilterWidget.outline": {
+      "value": "#00000000",
+      "hook": "--sds-g-color-neutral-base-0"
+    },
+    "listFilterWidget.noMatchesOutline": {
+      "value": "#be1100",
+      "hook": "--sds-g-color-error-base-40"
+    },
     "editor.background": {
       "value": "#181818",
       "hook": "--sds-g-color-neutral-base-10"
@@ -51,6 +1094,26 @@
     "editorLineNumber.foreground": {
       "value": "#444444",
       "hook": "--sds-g-color-neutral-base-30"
+    },
+    "editorLineNumber.activeForeground": {
+      "value": "#c6c6c6",
+      "hook": "--sds-g-color-neutral-base-80"
+    },
+    "editorLink.activeForeground": {
+      "value": "#4e94ce",
+      "hook": "--sds-g-color-palette-blue-60"
+    },
+    "editor.lineHighlightBorder": {
+      "value": "#3d3d3d",
+      "hook": "--sds-g-color-neutral-base-25"
+    },
+    "editor.foldBackground": {
+      "value": "#264f784d",
+      "hook": "--sds-g-color-palette-blue-40"
+    },
+    "editorOverviewRuler.background": {
+      "value": "#25252500",
+      "hook": "--sds-g-color-neutral-base-15"
     },
     "editorGutter.background": {
       "value": "#181818",
@@ -80,6 +1143,14 @@
       "value": "#aeaeae",
       "hook": "--sds-g-color-neutral-base-70"
     },
+    "titleBar.inactiveForeground": {
+      "value": "#cccccc99",
+      "hook": "--sds-g-color-neutral-base-80"
+    },
+    "titleBar.border": {
+      "value": "#00000000",
+      "hook": "--sds-g-color-neutral-base-0"
+    },
     "input.background": {
       "value": "#181818",
       "hook": "--sds-g-color-neutral-base-10"
@@ -95,6 +1166,14 @@
     "inputOption.activeBackground": {
       "value": "#066afe3e",
       "hook": "--sds-g-color-palette-electric-blue-50"
+    },
+    "inputOption.activeBorder": {
+      "value": "#007acc00",
+      "hook": "--sds-g-color-palette-blue-50"
+    },
+    "input.placeholderForeground": {
+      "value": "#a6a6a6",
+      "hook": "--sds-g-color-neutral-base-65"
     },
     "button.background": {
       "value": "#066afe",
@@ -144,6 +1223,34 @@
       "value": "#75beff",
       "hook": "--sds-g-color-info-base-60"
     },
+    "editorError.background": {
+      "value": "#B73A3400",
+      "hook": "--sds-g-color-error-base-40"
+    },
+    "editorError.border": {
+      "value": "#ffffff00",
+      "hook": "--sds-g-color-neutral-base-100"
+    },
+    "editorWarning.background": {
+      "value": "#A9904000",
+      "hook": "--sds-g-color-warning-base-40"
+    },
+    "editorWarning.border": {
+      "value": "#ffffff00",
+      "hook": "--sds-g-color-neutral-base-100"
+    },
+    "editorInfo.background": {
+      "value": "#4490BF00",
+      "hook": "--sds-g-color-info-base-40"
+    },
+    "editorInfo.border": {
+      "value": "#4490BF00",
+      "hook": "--sds-g-color-info-base-40"
+    },
+    "editorGutter.foldingControlForeground": {
+      "value": "#c5c5c5",
+      "hook": "--sds-g-color-neutral-base-80"
+    },
     "terminal.foreground": {
       "value": "#7cb1fe",
       "hook": "--sds-g-color-palette-electric-blue-70"
@@ -151,6 +1258,18 @@
     "terminal.selectionBackground": {
       "value": "#066afe40",
       "hook": "--sds-g-color-palette-electric-blue-50"
+    },
+    "terminalCursor.background": {
+      "value": "#7cb1fe",
+      "hook": "--sds-g-color-palette-electric-blue-70"
+    },
+    "terminalCursor.foreground": {
+      "value": "#7cb1fe",
+      "hook": "--sds-g-color-palette-electric-blue-70"
+    },
+    "terminal.border": {
+      "value": "#444444",
+      "hook": "--sds-g-color-neutral-base-30"
     },
     "terminal.ansiBlack": {
       "value": "#181818",
@@ -356,6 +1475,46 @@
       "value": "#c74e39",
       "hook": "--sds-g-color-error-base-50"
     },
+    "gitDecoration.conflictingResourceForeground": {
+      "value": "#6c6cc4",
+      "hook": "--sds-g-color-palette-indigo-60"
+    },
+    "gitDecoration.ignoredResourceForeground": {
+      "value": "#8c8c8c",
+      "hook": "--sds-g-color-neutral-base-55"
+    },
+    "gitDecoration.stageDeletedResourceForeground": {
+      "value": "#c74e39",
+      "hook": "--sds-g-color-error-base-50"
+    },
+    "gitDecoration.stageModifiedResourceForeground": {
+      "value": "#e2c08d",
+      "hook": "--sds-g-color-warning-base-70"
+    },
+    "gitDecoration.submoduleResourceForeground": {
+      "value": "#8db9e2",
+      "hook": "--sds-g-color-palette-blue-70"
+    },
+    "gitDecoration.untrackedResourceForeground": {
+      "value": "#73c991",
+      "hook": "--sds-g-color-success-base-70"
+    },
+    "editorMarkerNavigation.background": {
+      "value": "#2d2d30",
+      "hook": "--sds-g-color-neutral-base-20"
+    },
+    "editorMarkerNavigationError.background": {
+      "value": "#f48771",
+      "hook": "--sds-g-color-error-base-65"
+    },
+    "editorMarkerNavigationWarning.background": {
+      "value": "#cca700",
+      "hook": "--sds-g-color-warning-base-60"
+    },
+    "editorMarkerNavigationInfo.background": {
+      "value": "#75beff",
+      "hook": "--sds-g-color-info-base-60"
+    },
     "merge.currentHeaderBackground": {
       "value": "#36736699",
       "hook": "--sds-g-color-palette-teal-40"
@@ -384,6 +1543,18 @@
       "value": "#242424",
       "hook": "--sds-g-color-neutral-base-15"
     },
+    "editorWidget.foreground": {
+      "value": "#cccccc",
+      "hook": "--sds-g-color-neutral-base-80"
+    },
+    "editorWidget.resizeBorder": {
+      "value": "#5F5F5F",
+      "hook": "--sds-g-color-neutral-base-45"
+    },
+    "widget.shadow": {
+      "value": "#0000005c",
+      "hook": "--sds-g-color-neutral-base-0"
+    },
     "debugToolBar.background": {
       "value": "#242424",
       "hook": "--sds-g-color-neutral-base-15"
@@ -392,6 +1563,18 @@
       "value": "#242424",
       "hook": "--sds-g-color-neutral-base-15"
     },
+    "notificationToast.border": {
+      "value": "#2e2e2e",
+      "hook": "--sds-g-color-neutral-base-20"
+    },
+    "notificationsWarningIcon.foreground": {
+      "value": "#cca700",
+      "hook": "--sds-g-color-warning-base-60"
+    },
+    "notificationsInfoIcon.foreground": {
+      "value": "#75beff",
+      "hook": "--sds-g-color-info-base-60"
+    },
     "peekView.border": {
       "value": "#007acc",
       "hook": "--sds-g-color-palette-blue-50"
@@ -399,6 +1582,34 @@
     "peekViewEditor.background": {
       "value": "#001f33",
       "hook": "--sds-g-color-palette-blue-15"
+    },
+    "peekViewEditorGutter.background": {
+      "value": "#001f33",
+      "hook": "--sds-g-color-palette-blue-15"
+    },
+    "peekViewEditor.matchHighlightBackground": {
+      "value": "#ff8f0099",
+      "hook": "--sds-g-color-palette-orange-60"
+    },
+    "peekViewEditor.matchHighlightBorder": {
+      "value": "#ee931e",
+      "hook": "--sds-g-color-palette-orange-60"
+    },
+    "peekViewResult.fileForeground": {
+      "value": "#ffffff",
+      "hook": "--sds-g-color-neutral-base-100"
+    },
+    "peekViewResult.lineForeground": {
+      "value": "#bbbbbb",
+      "hook": "--sds-g-color-neutral-base-75"
+    },
+    "peekViewResult.matchHighlightBackground": {
+      "value": "#ea5c004d",
+      "hook": "--sds-g-color-palette-orange-50"
+    },
+    "peekViewTitleLabel.foreground": {
+      "value": "#ffffff",
+      "hook": "--sds-g-color-neutral-base-100"
     },
     "peekViewResult.background": {
       "value": "#252526",
@@ -427,6 +1638,34 @@
     "checkbox.border": {
       "value": "#444444",
       "hook": "--sds-g-color-neutral-base-30"
+    },
+    "checkbox.background": {
+      "value": "#181818",
+      "hook": "--sds-g-color-neutral-base-10"
+    },
+    "checkbox.foreground": {
+      "value": "#e5e5e5",
+      "hook": "--sds-g-color-neutral-base-90"
+    },
+    "icon.foreground": {
+      "value": "#cccccc",
+      "hook": "--sds-g-color-neutral-base-80"
+    },
+    "minimapGutter.addedBackground": {
+      "value": "#587c0c",
+      "hook": "--sds-g-color-success-base-50"
+    },
+    "minimapGutter.modifiedBackground": {
+      "value": "#0c7d9d",
+      "hook": "--sds-g-color-palette-cyan-50"
+    },
+    "minimapGutter.deletedBackground": {
+      "value": "#94151b",
+      "hook": "--sds-g-color-error-base-50"
+    },
+    "minimap.background": {
+      "value": "#181818",
+      "hook": "--sds-g-color-neutral-base-10"
     },
     "settings.checkboxBorder": {
       "value": "#444444",
@@ -463,6 +1702,26 @@
     "tab.inactiveForeground": {
       "value": "#c9c9c9",
       "hook": "--sds-g-color-neutral-base-80"
+    },
+    "tab.border": {
+      "value": "#181818",
+      "hook": "--sds-g-color-neutral-base-10"
+    },
+    "tab.activeBorderTop": {
+      "value": "#00000000",
+      "hook": "--sds-g-color-neutral-base-0"
+    },
+    "panelTitle.activeBorder": {
+      "value": "#e7e7e7",
+      "hook": "--sds-g-color-neutral-base-90"
+    },
+    "panelTitle.activeForeground": {
+      "value": "#e7e7e7",
+      "hook": "--sds-g-color-neutral-base-90"
+    },
+    "panelTitle.inactiveForeground": {
+      "value": "#e7e7e799",
+      "hook": "--sds-g-color-neutral-base-90"
     },
     "peekViewTitleDescription.foreground": {
       "value": "#c9c9c9",
@@ -559,10 +1818,6 @@
     "diffEditor.removedTextBackground": {
       "value": "#E3066A33",
       "hook": "--sds-g-color-error-base-50"
-    },
-    "scrollbar.shadow": {
-      "value": "#000000",
-      "hook": "--sds-g-color-neutral-base-0"
     },
     "badge.background": {
       "value": "#4d4d4d",
@@ -744,33 +1999,9 @@
       "value": "#242424",
       "hook": "--sds-g-color-neutral-base-15"
     },
-    "sideBar.foreground": {
-      "value": "#cccccc",
-      "hook": "--sds-g-color-neutral-base-80"
-    },
-    "sideBarSectionHeader.background": {
-      "value": "#00000000",
-      "hook": "--sds-g-color-neutral-base-0"
-    },
-    "sideBarSectionHeader.foreground": {
-      "value": "#cccccc",
-      "hook": "--sds-g-color-neutral-base-80"
-    },
-    "sideBarTitle.foreground": {
-      "value": "#bbbbbb",
-      "hook": "--sds-g-color-neutral-base-75"
-    },
     "list.highlightForeground": {
       "value": "#0097fb",
       "hook": "--sds-g-color-palette-electric-blue-55"
-    },
-    "list.inactiveSelectionForeground": {
-      "value": "#cccccc",
-      "hook": "--sds-g-color-neutral-base-80"
-    },
-    "list.hoverForeground": {
-      "value": "#cccccc",
-      "hook": "--sds-g-color-neutral-base-80"
     },
     "tree.indentGuidesStroke": {
       "value": "#242424",
@@ -869,12 +2100,52 @@
       "hook": "--sds-g-color-neutral-base-10"
     },
     "dropdown.border": {
-      "value": "#444444",
-      "hook": "--sds-g-color-neutral-base-30"
+      "value": "#00000000",
+      "hook": "--sds-g-color-neutral-base-0"
     },
     "dropdown.foreground": {
       "value": "#cccccc",
       "hook": "--sds-g-color-neutral-base-80"
+    },
+    "sideBar.dropBackground": {
+      "value": "#242424",
+      "hook": "--sds-g-color-neutral-base-15"
+    },
+    "editorGroup.emptyBackground": {
+      "value": "#181818",
+      "hook": "--sds-g-color-neutral-base-10"
+    },
+    "panelSection.border": {
+      "value": "#80808059",
+      "hook": "--sds-g-color-neutral-base-50"
+    },
+    "statusBarItem.activeBackground": {
+      "value": "#FFFFFF25",
+      "hook": "--sds-g-color-neutral-base-100"
+    },
+    "settings.headerForeground": {
+      "value": "#cccccc",
+      "hook": "--sds-g-color-neutral-base-80"
+    },
+    "settings.focusedRowBackground": {
+      "value": "#ffffff07",
+      "hook": "--sds-g-color-neutral-base-100"
+    },
+    "breadcrumb.activeSelectionForeground": {
+      "value": "#e0e0e0",
+      "hook": "--sds-g-color-neutral-base-90"
+    },
+    "editorGutter.commentRangeForeground": {
+      "value": "#c5c5c5",
+      "hook": "--sds-g-color-neutral-base-80"
+    },
+    "debugExceptionWidget.background": {
+      "value": "#242424",
+      "hook": "--sds-g-color-neutral-base-15"
+    },
+    "debugExceptionWidget.border": {
+      "value": "#2e2e2e",
+      "hook": "--sds-g-color-neutral-base-20"
     },
     "dropdown.listBackground": {
       "value": "#181818",
@@ -981,4 +2252,5 @@
       "hook": "--sds-g-color-palette-violet-80"
     }
   }
+}
 }

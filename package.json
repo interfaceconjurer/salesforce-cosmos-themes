@@ -4,17 +4,26 @@
   "description": "VSCode color themes based on the Salesforce Lightning Design System",
   "version": "0.0.1",
   "engines": {
-    "vscode": "^1.103.0"
+    "vscode": "^1.99.3"
   },
   "categories": [
     "Themes"
   ],
+  "repository": {
+  "type": "git",
+  "url": "git://github.com/forcedotcom/salesforcedx-vscode-themes.git"
+  },
   "contributes": {
     "themes": [
       {
         "label": "Salesforce Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/Salesforce Dark-color-theme.json"
+        "path": "./themes/SalesforceDark-color-theme.json"
+      },
+      {
+        "label": "Salesforce Light",
+        "uiTheme": "vs-light",
+        "path": "./themes/SalesforceLight-color-theme.json"
       }
     ]
   }
