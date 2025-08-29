@@ -32,6 +32,12 @@
       }
     ]
   },
+  "files": [
+    "themes/",
+    "resources/",
+    "README.md",
+    "CHANGELOG.md"
+  ],
   
   "icon": "./resources/theme-icon.png",
   "repository": {
