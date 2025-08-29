@@ -1,13 +1,13 @@
 # Salesforce Cosmos Themes
 
 <div align="center">
-  <img src="resources/theme-image-dark.png" alt="Salesforce Cosmos Theme Dark" />
   <p><em>Salesforce Cosmos Dark Theme</em></p>
+  <img src="resources/theme-image-dark.png" alt="Salesforce Cosmos Theme Dark" />
 </div>
 
 <div align="center">
-  <img src="resources/theme-image-light.png" alt="Salesforce Cosmos Theme Light" />
   <p><em>Salesforce Cosmos Light Theme</em></p>
+  <img src="resources/theme-image-light.png" alt="Salesforce Cosmos Theme Light" />
 </div>
 
 Beautiful, accessible color themes for Visual Studio Code based on the Salesforce Lightning Design System Cosmos Theme. This extension provides both light and dark themes that follow Salesforce's design principles and use authentic SLDS design tokens.
