@@ -1973,7 +1973,7 @@
       "badge.background": "#c9c9c9",
       "badge.foreground": "#444444",
       "terminal.foreground": "#0b5cab",
-      "terminal.selectionBackground": "#18181840",
+      "terminal.selectionBackground": "#add6ff",
       "terminalCursor.background": "#1b96ff",
       "terminalCursor.foreground": "#0b5cab",
       "terminal.border": "#93939359",
@@ -2093,6 +2093,8 @@
       "breadcrumb.activeSelectionForeground": "#5c5c5c",
       "editorGutter.commentRangeForeground": "#444444",
       "debugExceptionWidget.background": "#f3f3f3",
-      "debugExceptionWidget.border": "#e5e5e5"
+      "debugExceptionWidget.border": "#e5e5e5",
+      "settings.checkboxBorder": "#c9c9c9",
+      "sideBar.border": "#e5e5e5"
     }
   }

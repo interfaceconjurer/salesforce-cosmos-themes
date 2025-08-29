@@ -1866,7 +1866,7 @@
     "list.inactiveSelectionForeground": "#cccccc",
     "list.hoverBackground": "#242424",
     "list.hoverForeground": "#cccccc",
-	  "list.errorForeground": "#ff538a",
+    "list.errorForeground": "#ff538a",
     "list.activeSelectionBackground": "#066afe3e",
     "list.activeSelectionForeground": "#ffffff",
     "tree.indentGuidesStroke": "#242424",
