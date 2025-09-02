@@ -38,6 +38,9 @@
     "README.md",
     "CHANGELOG.md"
   ],
+  "scripts": {
+    "optimize-images": "bash optimize-images.sh"
+  },
   
   "icon": "./resources/theme-icon.png",
   "repository": {
