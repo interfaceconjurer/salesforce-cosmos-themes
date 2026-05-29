@@ -10,11 +10,8 @@
   },
   {
     "token": "--color-surface-sunken",
-    "vscodeKey": "sideBar.background",
-    "dark": "#242424",
-    "darkRef": "--slds-g-color-surface-1",
-    "light": "#f3f3f3",
-    "lightRef": "--slds-g-color-neutral-base-95",
+    "derivedFrom": "var(--color-surface-canvas)",
+    "inheritsVscodeKey": "editor.background",
     "category": "surface"
   },
   {
@@ -635,8 +632,8 @@
   {
     "token": "--sidebar",
     "vscodeKey": "sideBar.background",
-    "dark": "#242424",
-    "darkRef": "--slds-g-color-surface-1",
+    "dark": "#181818",
+    "darkRef": "--slds-g-color-neutral-base-90",
     "light": "#f3f3f3",
     "lightRef": "--slds-g-color-neutral-base-95",
     "category": "component"
