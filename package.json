@@ -14,7 +14,7 @@
     "theme",
     "dark theme",
     "salesforce theme",
-    "cosoms theme",
+    "cosmos theme",
     "light theme",
     "custom theme"
   ],
@@ -34,21 +34,25 @@
   },
   "files": [
     "themes/",
-    "resources/",
+    "resources/theme-icon.png",
+    "resources/theme-image-dark.webp",
+    "resources/theme-image-light.webp",
     "README.md",
     "CHANGELOG.md"
   ],
   "scripts": {
     "optimize-images": "bash optimize-images.sh"
   },
-  
   "icon": "./resources/theme-icon.png",
   "repository": {
-  "type": "git",
-  "url": "https://github.com/forcedotcom/salesforcedx-vscode-themes"
+    "type": "git",
+    "url": "https://github.com/forcedotcom/salesforcedx-vscode-themes"
   },
   "bugs": {
     "url": "https://github.com/forcedotcom/salesforcedx-vscode-themes/issues"
   },
-  "homepage": "https://github.com/forcedotcom/salesforcedx-vscode-themes#readme"
+  "homepage": "https://github.com/forcedotcom/salesforcedx-vscode-themes#readme",
+  "devDependencies": {
+    "@salesforce-ux/design-system-2": "^2.0.0"
+  }
 }
