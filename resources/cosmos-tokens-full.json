@@ -1599,10 +1599,46 @@
     "token": "",
     "vscodeKey": "list.highlightForeground",
     "category": "",
-    "dark": "#0684ef",
-    "darkRef": "--slds-r-color-info-55",
+    "dark": "#7cb1fe",
+    "darkRef": "",
     "light": "#066afe",
     "lightRef": "--slds-g-color-palette-electric-blue-50"
+  },
+  {
+    "token": "",
+    "vscodeKey": "list.focusHighlightForeground",
+    "category": "",
+    "dark": "#ffffff",
+    "darkRef": "--slds-g-color-neutral-base-100",
+    "light": "#edf4ff",
+    "lightRef": "--slds-g-color-palette-electric-blue-95"
+  },
+  {
+    "token": "",
+    "vscodeKey": "quickInputList.focusHighlightForeground",
+    "category": "",
+    "dark": "#ffffff",
+    "darkRef": "--slds-g-color-neutral-base-100",
+    "light": "#ffffff",
+    "lightRef": "--slds-g-color-neutral-base-100"
+  },
+  {
+    "token": "",
+    "vscodeKey": "quickInputList.focusBackground",
+    "category": "",
+    "dark": "#066afe",
+    "darkRef": "--slds-g-color-palette-electric-blue-50",
+    "light": "#066afe",
+    "lightRef": "--slds-g-color-palette-electric-blue-50"
+  },
+  {
+    "token": "",
+    "vscodeKey": "quickInputList.focusForeground",
+    "category": "",
+    "dark": "#ffffff",
+    "darkRef": "--slds-g-color-neutral-base-100",
+    "light": "#ffffff",
+    "lightRef": "--slds-g-color-neutral-base-100"
   },
   {
     "token": "",
