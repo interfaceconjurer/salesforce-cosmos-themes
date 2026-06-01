@@ -107,8 +107,8 @@ optimize_image() {
 echo -e "${YELLOW}📸 Optimizing theme images...${NC}"
 echo ""
 
-optimize_image "theme-image-dark.png"
-optimize_image "theme-image-light.png"
+optimize_image "dark-cosmos.png"
+optimize_image "light-cosmos.png"
 
 echo -e "${GREEN}🎉 Image optimization complete!${NC}"
 echo ""

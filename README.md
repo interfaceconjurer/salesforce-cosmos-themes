@@ -2,12 +2,12 @@
 
 <div align="center">
   <p><em>Salesforce Cosmos Dark</em></p>
-  <img src="./resources/theme-image-dark.webp" alt="Salesforce Cosmos Theme Dark" />
+  <img src="./resources/dark-cosmos.webp" alt="Salesforce Cosmos Theme Dark" />
 </div>
 
 <div align="center">
   <p><em>Salesforce Cosmos Light</em></p>
-  <img src="./resources/theme-image-light.webp" alt="Salesforce Cosmos Theme Light" />
+  <img src="./resources/light-cosmos.webp" alt="Salesforce Cosmos Theme Light" />
 </div>
 
 Dark and light color themes for Visual Studio Code derived from the [Salesforce Lightning Design System (SLDS2)](https://www.npmjs.com/package/@salesforce-ux/design-system-2) Cosmos palette. Every color is traceable to an SLDS design token — no ad-hoc hex values.
