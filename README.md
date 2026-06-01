@@ -1,104 +1,101 @@
 # Salesforce Cosmos Themes
 
 <div align="center">
-  <p><em>Salesforce Cosmos Dark Theme</em></p>
+  <p><em>Salesforce Cosmos Dark</em></p>
   <img src="./resources/theme-image-dark.webp" alt="Salesforce Cosmos Theme Dark" />
 </div>
 
 <div align="center">
-  <p><em>Salesforce Cosmos Light Theme</em></p>
+  <p><em>Salesforce Cosmos Light</em></p>
   <img src="./resources/theme-image-light.webp" alt="Salesforce Cosmos Theme Light" />
 </div>
 
-Beautiful, accessible color themes for Visual Studio Code based on the Salesforce Lightning Design System Cosmos Theme. This extension provides both light and dark themes that follow Salesforce's design principles and use authentic SLDS design tokens.
+Dark and light color themes for Visual Studio Code derived from the [Salesforce Lightning Design System (SLDS2)](https://www.npmjs.com/package/@salesforce-ux/design-system-2) Cosmos palette. Every color is traceable to an SLDS design token — no ad-hoc hex values.
 
-## 🎨 Themes
-
-### Salesforce Cosmos Light
-
-A clean, bright theme perfect for daytime coding with excellent contrast and readability.
-
-- **Background**: Light neutrals for reduced eye strain
-- **Syntax highlighting**: Vibrant, accessible colors
-- **UI elements**: Consistent with Salesforce Lightning interface
-- **Terminal**: Integrated color scheme for seamless experience
+## Themes
 
 ### Salesforce Cosmos Dark
 
-A sophisticated dark theme designed for low-light environments and extended coding sessions.
+A low-light theme built on SLDS neutral base 90 (`#181818`) with high-contrast syntax colors tuned for extended sessions. Activity bar and sidebar icons are intentionally dimmed to keep focus on code.
 
-- **Background**: Deep, rich neutrals
-- **Syntax highlighting**: High-contrast colors optimized for dark backgrounds
-- **UI elements**: Maintains Salesforce brand consistency
-- **Terminal**: Coordinated dark color palette
+### Salesforce Cosmos Light
 
-## ✨ Features
+A bright theme built on neutral base 100 (`#ffffff`) with vibrant, WCAG-compliant syntax highlighting and Salesforce-blue accents.
 
-- **🎯 SLDS Design Tokens**: Built using authentic Salesforce Lightning Design System color tokens
-- **♿ Accessibility**: Meets WCAG contrast requirements for better readability
-- **🔄 Consistent Experience**: Unified color scheme across editor, terminal, and UI elements
-- **💡 Smart Highlighting**: Thoughtfully chosen syntax colors for better code comprehension
-- **🎨 Brand Aligned**: Colors that reflect Salesforce's visual identity
+## Features
 
-## 🚀 Installation
+- **SLDS2 token-derived** — colors sourced from the `@salesforce-ux/design-system-2` npm package, mapped through a [semantic token layer](./resources/cosmos-tokens-full.json)
+- **WCAG contrast audited** — text and UI elements meet AA contrast ratios
+- **Semantic highlighting** — leverages VS Code's semantic token API for richer language coloring
+- **Full-surface coverage** — editor, terminal, diff viewer, git decorations, breadcrumbs, peek views, merge conflicts, and minimap all themed consistently
+- **Subdued chrome** — sidebar icons, list selections, and activity bar are dialed back so the editor content stays prominent
 
-1. Open Visual Studio Code
-2. Go to Extensions (`Cmd+Shift+X` on macOS or `Ctrl+Shift+X` on Windows/Linux)
-3. Search for "Salesforce Cosmos Themes"
+## Installation
+
+1. Open VS Code
+2. Go to Extensions (`Cmd+Shift+X` / `Ctrl+Shift+X`)
+3. Search for **"Salesforce Cosmos Themes"**
 4. Click Install
-5. Go to Settings → Color Theme and select either:
-   - **Salesforce Cosmos Light** for the light theme
-   - **Salesforce Cosmos Dark** for the dark theme
+5. Open the Command Palette (`Cmd+Shift+P`) → **Preferences: Color Theme** → select **Salesforce Cosmos Dark** or **Salesforce Cosmos Light**
 
-## 🛠 Configuration
+### From source (development)
 
-The themes work great out of the box, but you can customize them further:
+1. Clone the repo: `git clone git@github.com:forcedotcom/salesforcedx-vscode-themes.git`
+2. Open the folder in VS Code
+3. Press `F5` to launch an Extension Development Host
+4. Select **Salesforce Cosmos Dark** or **Salesforce Cosmos Light** from the color theme picker
 
-```json
-{
-  "workbench.colorTheme": "Salesforce Cosmos Light",
-  "terminal.integrated.theme": "Salesforce Cosmos Light"
-}
+## Color Palette
+
+### Dark
+
+| Role | Hex | SLDS Token |
+|------|-----|------------|
+| Canvas | `#181818` | `--slds-g-color-neutral-base-90` |
+| Elevated surface | `#242424` | `--slds-g-color-surface-1` |
+| Primary text | `#c9c9c9` | neutral base 20 |
+| Primary blue | `#7cb1fe` | electric blue 45 |
+| Accent | `#066afe` | electric blue 50 |
+| Error | `#ff538a` | error base |
+| Warning | `#e4a201` | warning base |
+| Success | `#01c3b3` | success base |
+
+### Light
+
+| Role | Hex | SLDS Token |
+|------|-----|------------|
+| Canvas | `#ffffff` | `--slds-g-color-neutral-base-100` |
+| Elevated surface | `#e5e5e5` | `--slds-g-color-neutral-base-90` |
+| Primary text | `#181818` | neutral base 10 |
+| Primary blue | `#066afe` | electric blue 50 |
+| Accent | `#0176d3` | Salesforce blue |
+| Error | `#ea001e` | error base |
+| Warning | `#a96504` | warning base |
+| Success | `#0b827c` | success base |
+
+## Token Architecture
+
+The themes use a three-layer token system:
+
+1. **SLDS2 primitive tokens** — raw palette values from `@salesforce-ux/design-system-2`
+2. **Semantic tokens** — mapped in [`resources/cosmos-tokens-full.json`](./resources/cosmos-tokens-full.json) with categories like `surface`, `text`, `border`, `state`
+3. **VS Code workbench colors** — the final theme JSON files that VS Code consumes
+
+This indirection means updating to a new SLDS2 release only requires remapping the semantic layer, not rewriting 2000+ individual color assignments.
+
+## Development
+
+```sh
+npm install          # pulls @salesforce-ux/design-system-2
+npm run optimize-images   # compress preview screenshots
 ```
 
-## 🎨 Color Palette
+The theme files live in `themes/` and are plain VS Code color theme JSON. The token reference in `resources/cosmos-tokens-full.json` documents the mapping rationale for each workbench color key.
 
-### Cosmos Light Theme
+## Contributing
 
-- **Primary Blue**: `#066afe` (Electric Blue)
-- **Background**: `#ffffff` (Pure White) / `#f3f3f3` (Light Gray)
-- **Text**: `#181818` (Dark Gray) / `#5c5c5c` (Medium Gray)
-- **Accent**: `#0176d3` (Salesforce Blue)
+Issues and pull requests welcome at [forcedotcom/salesforcedx-vscode-themes](https://github.com/forcedotcom/salesforcedx-vscode-themes).
 
-### Cosmos Dark Theme
+## License
 
-- **Primary Blue**: `#7cb1fe` (Light Electric Blue)
-- **Background**: `#181818` (Dark Gray) / `#242424` (Medium Dark)
-- **Text**: `#cccccc` (Light Gray) / `#aeaeae` (Medium Light)
-- **Accent**: `#066afe` (Electric Blue)
-
-## 🔗 SLDS Integration
-
-These themes are built using authentic Salesforce Lightning Design System tokens:
-
-- `--sds-g-color-neutral-base-*` for backgrounds and text
-- `--sds-g-color-palette-electric-blue-*` for primary actions
-- `--sds-g-color-error-base-*` for error states
-- `--sds-g-color-success-base-*` for success states
-- `--sds-g-color-warning-base-*` for warning states
-
-## 📝 Changelog
-
-See [CHANGELOG.md](CHANGELOG.md) for release notes and version history.
-
-## 🤝 Contributing
-
-We welcome contributions! Please feel free to submit issues and pull requests.
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
----
-
-**Enjoy coding with authentic Salesforce colors! ⚡**
+MIT — see [LICENSE](./LICENSE).
