@@ -1,0 +1,11 @@
+.vscode/**
+node_modules/**
+.git/**
+.context/**
+.gitignore
+.gitattributes
+optimize-images.sh
+resources/cosmos-tokens-full.json
+*.vsix
+.env
+.DS_Store
