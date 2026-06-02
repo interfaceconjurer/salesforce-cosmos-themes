@@ -2,7 +2,7 @@
   "name": "salesforce-cosmos-themes",
   "displayName": "Salesforce Cosmos Themes",
   "description": "VSCode color themes based on the Salesforce Lightning Design System Cosmos Theme",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "digitalchemist",
   "license": "MIT",
   "engines": {
