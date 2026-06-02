@@ -28,25 +28,25 @@
     "vscodeKey": "editorWidget.background",
     "dark": "#242424",
     "darkRef": "--slds-g-color-surface-1",
-    "light": "#f3f3f3",
+    "light": "#e5e5e5",
     "lightRef": "--slds-g-color-neutral-base-95",
     "category": "surface"
   },
   {
     "token": "--color-surface-hover",
     "vscodeKey": "list.hoverBackground",
-    "dark": "#2e2e2e",
+    "dark": "#1a3a5c",
     "darkRef": "--slds-g-color-neutral-base-80",
-    "light": "#e5e5e5",
+    "light": "#d6e6ff",
     "lightRef": "--slds-g-color-neutral-base-90",
     "category": "surface"
   },
   {
     "token": "--color-surface-active",
     "vscodeKey": "list.activeSelectionBackground",
-    "dark": "#032d60",
+    "dark": "#2a4a6b",
     "darkRef": "--slds-r-color-info-20",
-    "light": "#eef4ff",
+    "light": "#aacbff9d",
     "lightRef": "--slds-r-color-info-95",
     "category": "surface"
   },
@@ -89,7 +89,7 @@
   {
     "token": "--color-text-secondary-vivid",
     "vscodeKey": "descriptionForeground",
-    "dark": "#aeaeae",
+    "dark": "#939393",
     "darkRef": "--slds-g-color-neutral-base-30",
     "light": "#5c5c5c",
     "lightRef": "--slds-g-color-neutral-base-40",
@@ -98,9 +98,9 @@
   {
     "token": "--color-text-tertiary",
     "vscodeKey": "descriptionForeground",
-    "dark": "#848484",
+    "dark": "#939393",
     "darkRef": "--slds-g-color-neutral-base-45",
-    "light": "#696969",
+    "light": "#5c5c5c",
     "lightRef": "--slds-g-color-neutral-base-45",
     "category": "text"
   },
@@ -118,7 +118,7 @@
     "vscodeKey": "panel.border",
     "dark": "#2e2e2e",
     "darkRef": "--slds-g-color-neutral-base-80",
-    "light": "#e5e5e5",
+    "light": "#e5e5e559",
     "lightRef": "--slds-g-color-neutral-base-90",
     "category": "border"
   },
@@ -185,18 +185,18 @@
   {
     "token": "--color-success-text",
     "vscodeKey": "terminal.ansiGreen",
-    "dark": "#01c3b3",
+    "dark": "#45c65a",
     "darkRef": "--slds-r-color-success-70",
-    "light": "#035a58",
+    "light": "#396547",
     "lightRef": "--slds-r-color-success-35",
     "category": "status"
   },
   {
     "token": "--color-success-border",
     "vscodeKey": "terminal.ansiGreen",
-    "dark": "#06a59a",
+    "dark": "#45c65a",
     "darkRef": "--slds-r-color-success-60",
-    "light": "#056764",
+    "light": "#396547",
     "lightRef": "--slds-r-color-success-40",
     "category": "status"
   },
@@ -223,7 +223,7 @@
     "vscodeKey": "list.errorForeground",
     "dark": "#fe8aa7",
     "darkRef": "--slds-r-color-error-70",
-    "light": "#b60554",
+    "light": "#a00449",
     "lightRef": "--slds-r-color-error-40",
     "category": "status"
   },
@@ -281,7 +281,7 @@
   {
     "token": "--color-info-text",
     "vscodeKey": "problemsInfoIcon.foreground",
-    "dark": "#78b0fd",
+    "dark": "#066afe",
     "darkRef": "--slds-r-color-info-70",
     "light": "#0b5cab",
     "lightRef": "--slds-r-color-info-40",
@@ -454,7 +454,7 @@
     "vscodeKey": "input.border",
     "dark": "#444444",
     "darkRef": "--slds-g-color-neutral-base-70",
-    "light": "#c9c9c9",
+    "light": "#c9c9c900",
     "lightRef": "--slds-g-color-neutral-base-80",
     "category": "interactive"
   },
@@ -472,7 +472,7 @@
     "vscodeKey": "checkbox.border",
     "dark": "#444444",
     "darkRef": "--slds-g-color-neutral-base-70",
-    "light": "#c9c9c9",
+    "light": "#c9c9c900",
     "lightRef": "--slds-g-color-neutral-base-80",
     "category": "interactive"
   },
@@ -577,7 +577,7 @@
     "vscodeKey": "descriptionForeground",
     "dark": "#939393",
     "darkRef": "--slds-g-color-neutral-base-40",
-    "light": "#696969",
+    "light": "#5c5c5c",
     "lightRef": "--slds-g-color-neutral-base-45",
     "category": "component"
   },
@@ -614,7 +614,7 @@
   {
     "token": "--warning-foreground",
     "vscodeKey": "problemsWarningIcon.foreground",
-    "dark": "#e4a201",
+    "dark": "#a96504",
     "darkRef": "--slds-r-color-warning-70",
     "light": "#8c4b02",
     "lightRef": "--slds-r-color-warning-40",
@@ -625,7 +625,7 @@
     "vscodeKey": "editorWarning.foreground",
     "dark": "#e4a201",
     "darkRef": "--slds-r-color-warning-70",
-    "light": "#ca8501",
+    "light": "#a96504",
     "lightRef": "--slds-r-color-warning-60",
     "category": "status"
   },
@@ -662,9 +662,9 @@
   {
     "token": "--sidebar-accent",
     "vscodeKey": "list.hoverBackground",
-    "dark": "#2e2e2e",
+    "dark": "#1a3a5c",
     "darkRef": "--slds-g-color-neutral-base-80",
-    "light": "#e5e5e5",
+    "light": "#d6e6ff",
     "lightRef": "--slds-g-color-neutral-base-90",
     "category": "component"
   },
@@ -689,7 +689,7 @@
   {
     "token": "--color-brand-gradient-start",
     "vscodeKey": "terminal.ansiMagenta",
-    "dark": "#9602c7",
+    "dark": "#7f8ced",
     "darkRef": "--slds-g-color-palette-violet-60",
     "light": "#9602c7",
     "lightRef": "--slds-g-color-palette-violet-40",
@@ -698,7 +698,7 @@
   {
     "token": "--color-brand-accent-light",
     "vscodeKey": "terminal.ansiBrightMagenta",
-    "dark": "#580276",
+    "dark": "#bec7f6",
     "darkRef": "--slds-g-color-palette-violet-80",
     "light": "#ba01ff",
     "lightRef": "--slds-g-color-palette-violet-50",
@@ -707,9 +707,9 @@
   {
     "token": "--color-brand-gradient-end",
     "vscodeKey": "textLink.foreground",
-    "dark": "#4992fe",
+    "dark": "#7cb1fe",
     "darkRef": "--slds-r-color-brand-60",
-    "light": "#066afe",
+    "light": "#0250d9",
     "lightRef": "--slds-r-color-brand-50",
     "category": "brand"
   },
@@ -718,16 +718,16 @@
     "vscodeKey": "textLink.foreground",
     "dark": "#7cb1fe",
     "darkRef": "--slds-r-color-brand-70",
-    "light": "#4992fe",
+    "light": "#0250d9",
     "lightRef": "--slds-r-color-brand-60",
     "category": "brand"
   },
   {
     "token": "--switch-on",
     "vscodeKey": "editorGutter.addedBackground",
-    "dark": "#06a59a",
+    "dark": "#01c3b3",
     "darkRef": "--slds-r-color-success-60",
-    "light": "#0b827c",
+    "light": "#056764",
     "lightRef": "--slds-r-color-success-50",
     "category": "component"
   },
@@ -744,19 +744,19 @@
     "token": "",
     "vscodeKey": "activityBar.foreground",
     "category": "",
-    "dark": "#7cb1fe",
-    "darkRef": "--slds-g-color-palette-electric-blue-30",
-    "light": "#0250d9",
-    "lightRef": "--slds-g-color-palette-electric-blue-40"
+    "dark": "#4992fe",
+    "darkRef": "--slds-g-color-palette-electric-blue-40",
+    "light": "#588be5",
+    "lightRef": "--slds-g-color-palette-electric-blue-50"
   },
   {
     "token": "",
     "vscodeKey": "activityBar.inactiveForeground",
     "category": "",
-    "dark": "#aeaeae",
-    "darkRef": "--slds-g-color-neutral-base-30",
-    "light": "#5c5c5c",
-    "lightRef": "--slds-g-color-neutral-base-40"
+    "dark": "#848484",
+    "darkRef": "--slds-g-color-neutral-base-45",
+    "light": "#8c8c8c",
+    "lightRef": "--slds-g-color-neutral-base-50"
   },
   {
     "token": "",
@@ -766,6 +766,60 @@
     "darkRef": "--slds-g-color-neutral-base-0",
     "light": "#ffffff",
     "lightRef": "--slds-g-color-neutral-base-100"
+  },
+  {
+    "token": "",
+    "vscodeKey": "activityBarTop.foreground",
+    "category": "",
+    "dark": "#4992fe",
+    "darkRef": "--slds-g-color-palette-electric-blue-40",
+    "light": "#588be5",
+    "lightRef": "--slds-g-color-palette-electric-blue-50"
+  },
+  {
+    "token": "",
+    "vscodeKey": "activityBarTop.inactiveForeground",
+    "category": "",
+    "dark": "#848484",
+    "darkRef": "--slds-g-color-neutral-base-45",
+    "light": "#8c8c8c",
+    "lightRef": "--slds-g-color-neutral-base-50"
+  },
+  {
+    "token": "",
+    "vscodeKey": "activityBarTop.background",
+    "category": "",
+    "dark": "#181818",
+    "darkRef": "--slds-g-color-neutral-base-90",
+    "light": "#f3f3f3",
+    "lightRef": "--slds-g-color-neutral-base-95"
+  },
+  {
+    "token": "",
+    "vscodeKey": "activityBarTop.activeBorder",
+    "category": "",
+    "dark": "#4992fe",
+    "darkRef": "--slds-g-color-palette-electric-blue-40",
+    "light": "#588be5",
+    "lightRef": "--slds-g-color-palette-electric-blue-50"
+  },
+  {
+    "token": "",
+    "vscodeKey": "activityBarTop.activeBackground",
+    "category": "",
+    "dark": "#181818",
+    "darkRef": "--slds-g-color-neutral-base-90",
+    "light": "#f3f3f3",
+    "lightRef": "--slds-g-color-neutral-base-95"
+  },
+  {
+    "token": "",
+    "vscodeKey": "activityBarTop.dropBorder",
+    "category": "",
+    "dark": "#4992fe",
+    "darkRef": "--slds-g-color-palette-electric-blue-40",
+    "light": "#588be5",
+    "lightRef": "--slds-g-color-palette-electric-blue-50"
   },
   {
     "token": "",
@@ -818,7 +872,7 @@
     "category": "",
     "dark": "#c9c9c9",
     "darkRef": "--slds-g-color-neutral-base-20",
-    "light": "#5c5c5c",
+    "light": "#5c5c5ccc",
     "lightRef": "--slds-g-color-neutral-base-40"
   },
   {
@@ -915,9 +969,9 @@
     "token": "",
     "vscodeKey": "dropdown.border",
     "category": "",
-    "dark": "#000000",
+    "dark": "#00000000",
     "darkRef": "--slds-g-color-neutral-base-100",
-    "light": "#000000",
+    "light": "#00000000",
     "lightRef": "--slds-g-color-neutral-base-0"
   },
   {
@@ -951,18 +1005,18 @@
     "token": "",
     "vscodeKey": "editor.findMatchHighlightBackground",
     "category": "",
-    "dark": "#a96404",
+    "dark": "#a9640455",
     "darkRef": "--slds-g-color-palette-orange-50",
-    "light": "#a96404",
+    "light": "#a9640455",
     "lightRef": "--slds-g-color-palette-orange-50"
   },
   {
     "token": "",
     "vscodeKey": "editor.findMatchHighlightBorder",
     "category": "",
-    "dark": "#ffffff",
+    "dark": "#ffffff00",
     "darkRef": "--slds-g-color-neutral-base-0",
-    "light": "#ffffff",
+    "light": "#ffffff00",
     "lightRef": "--slds-g-color-neutral-base-100"
   },
   {
@@ -971,34 +1025,34 @@
     "category": "",
     "dark": "#44444466",
     "darkRef": "--slds-g-color-palette-neutral-70 @ 40%",
-    "light": "#aeaeae",
+    "light": "#aeaeae4d",
     "lightRef": "--slds-g-color-neutral-base-70"
   },
   {
     "token": "",
     "vscodeKey": "editor.findRangeHighlightBorder",
     "category": "",
-    "dark": "#ffffff",
+    "dark": "#ffffff00",
     "darkRef": "--slds-g-color-neutral-base-0",
-    "light": "#ffffff",
+    "light": "#ffffff00",
     "lightRef": "--slds-g-color-neutral-base-100"
   },
   {
     "token": "",
     "vscodeKey": "editor.foldBackground",
     "category": "",
-    "dark": "#0b5cab",
+    "dark": "#0b5cab4d",
     "darkRef": "--slds-g-color-palette-blue-60",
-    "light": "#a8cbff",
+    "light": "#a8cbff4d",
     "lightRef": "--slds-g-color-palette-electric-blue-80"
   },
   {
     "token": "",
     "vscodeKey": "editor.hoverHighlightBackground",
     "category": "",
-    "dark": "#0b5cab",
+    "dark": "#0b5cab40",
     "darkRef": "--slds-g-color-palette-blue-60",
-    "light": "#a8cbff",
+    "light": "#a8cbff26",
     "lightRef": "--slds-g-color-palette-electric-blue-80"
   },
   {
@@ -1007,16 +1061,16 @@
     "category": "",
     "dark": "#44444499",
     "darkRef": "--slds-g-color-palette-neutral-70 @ 60%",
-    "light": "#d6e6ff",
+    "light": "#d6e6ff80",
     "lightRef": "--slds-g-color-palette-electric-blue-90"
   },
   {
     "token": "",
     "vscodeKey": "editor.lineHighlightBackground",
     "category": "",
-    "dark": "#f3f3f3",
+    "dark": "#f3f3f30a",
     "darkRef": "--slds-s-button-color-background-focus",
-    "light": "#ffffff",
+    "light": "#ffffff0A",
     "lightRef": "--slds-g-color-neutral-base-100"
   },
   {
@@ -1032,18 +1086,18 @@
     "token": "",
     "vscodeKey": "editor.rangeHighlightBackground",
     "category": "",
-    "dark": "#ffffff",
+    "dark": "#ffffff0b",
     "darkRef": "--slds-g-color-neutral-base-0",
-    "light": "#e4a201",
+    "light": "#e4a20133",
     "lightRef": "--slds-g-color-warning-base-70"
   },
   {
     "token": "",
     "vscodeKey": "editor.rangeHighlightBorder",
     "category": "",
-    "dark": "#ffffff",
+    "dark": "#ffffff00",
     "darkRef": "--slds-g-color-neutral-base-0",
-    "light": "#ffffff",
+    "light": "#ffffff00",
     "lightRef": "--slds-g-color-neutral-base-100"
   },
   {
@@ -1059,9 +1113,9 @@
     "token": "",
     "vscodeKey": "editor.selectionHighlightBackground",
     "category": "",
-    "dark": "#aacbff",
+    "dark": "#aacbff26",
     "darkRef": "--slds-g-color-palette-blue-20",
-    "light": "#a8cbff",
+    "light": "#a8cbff80",
     "lightRef": "--slds-g-color-palette-electric-blue-80"
   },
   {
@@ -1077,7 +1131,7 @@
     "token": "",
     "vscodeKey": "editor.wordHighlightBackground",
     "category": "",
-    "dark": "#5c5c5c",
+    "dark": "#5c5c5cb8",
     "darkRef": "--slds-g-color-neutral-base-60",
     "light": "#5c5c5c40",
     "lightRef": "--slds-g-color-palette-neutral-40 @ 25%"
@@ -1086,18 +1140,18 @@
     "token": "",
     "vscodeKey": "editor.wordHighlightStrongBackground",
     "category": "",
-    "dark": "#014486",
+    "dark": "#014486b8",
     "darkRef": "--slds-g-color-palette-blue-70",
-    "light": "#0b5cab",
+    "light": "#0b5cab40",
     "lightRef": "--slds-g-color-palette-blue-40"
   },
   {
     "token": "",
     "vscodeKey": "editorBracketMatch.background",
     "category": "",
-    "dark": "#071b12",
+    "dark": "#071b121a",
     "darkRef": "--slds-r-color-success-10",
-    "light": "#071b12",
+    "light": "#071b121a",
     "lightRef": "--slds-g-color-success-base-10"
   },
   {
@@ -1115,7 +1169,7 @@
     "category": "",
     "dark": "#939393",
     "darkRef": "--slds-g-color-neutral-base-40",
-    "light": "#939393",
+    "light": "#757575",
     "lightRef": "--slds-g-color-neutral-base-60"
   },
   {
@@ -1140,18 +1194,18 @@
     "token": "",
     "vscodeKey": "editorError.background",
     "category": "",
-    "dark": "#b60554",
+    "dark": "#b6055400",
     "darkRef": "--slds-r-color-error-40",
-    "light": "#b60554",
+    "light": "#b6055400",
     "lightRef": "--slds-g-color-error-base-40"
   },
   {
     "token": "",
     "vscodeKey": "editorError.border",
     "category": "",
-    "dark": "#ffffff",
+    "dark": "#ffffff00",
     "darkRef": "--slds-g-color-neutral-base-0",
-    "light": "#ffffff",
+    "light": "#ffffff00",
     "lightRef": "--slds-g-color-neutral-base-100"
   },
   {
@@ -1248,18 +1302,18 @@
     "token": "",
     "vscodeKey": "editorInfo.background",
     "category": "",
-    "dark": "#0b5cab",
+    "dark": "#0b5cab00",
     "darkRef": "--slds-r-color-info-40",
-    "light": "#0b5cab",
+    "light": "#0b5cab00",
     "lightRef": "--slds-g-color-info-base-40"
   },
   {
     "token": "",
     "vscodeKey": "editorInfo.border",
     "category": "",
-    "dark": "#0b5cab",
+    "dark": "#0b5cab00",
     "darkRef": "--slds-r-color-info-40",
-    "light": "#0b5cab",
+    "light": "#0b5cab00",
     "lightRef": "--slds-g-color-info-base-40"
   },
   {
@@ -1268,7 +1322,7 @@
     "category": "",
     "dark": "#c9c9c9",
     "darkRef": "--slds-g-color-neutral-base-20",
-    "light": "#a0a0a0",
+    "light": "#757575",
     "lightRef": "--slds-g-color-neutral-base-65"
   },
   {
@@ -1277,7 +1331,7 @@
     "category": "",
     "dark": "#444444",
     "darkRef": "--slds-g-color-neutral-base-70",
-    "light": "#a0a0a0",
+    "light": "#757575",
     "lightRef": "--slds-g-color-neutral-base-65"
   },
   {
@@ -1329,16 +1383,16 @@
     "token": "",
     "vscodeKey": "editorOverviewRuler.background",
     "category": "",
-    "dark": "#242424",
+    "dark": "#24242400",
     "darkRef": "--slds-g-color-surface-1",
-    "light": "#242424",
+    "light": "#24242400",
     "lightRef": "--slds-g-color-neutral-base-15"
   },
   {
     "token": "",
     "vscodeKey": "editorOverviewRuler.border",
     "category": "",
-    "dark": "#757575",
+    "dark": "#7575754d",
     "darkRef": "--slds-g-color-neutral-base-50",
     "light": "#8484844d",
     "lightRef": "--slds-g-color-neutral-base-55 @ 30%"
@@ -1385,7 +1439,7 @@
     "category": "",
     "dark": "#7cb1fe",
     "darkRef": "--slds-g-color-palette-electric-blue-30",
-    "light": "#066afe",
+    "light": "#0250d9",
     "lightRef": "--slds-g-color-palette-electric-blue-50"
   },
   {
@@ -1401,27 +1455,27 @@
     "token": "",
     "vscodeKey": "editorWarning.background",
     "category": "",
-    "dark": "#8c4b02",
+    "dark": "#8c4b0200",
     "darkRef": "--slds-r-color-warning-40",
-    "light": "#8c4b02",
+    "light": "#8c4b0200",
     "lightRef": "--slds-g-color-warning-base-40"
   },
   {
     "token": "",
     "vscodeKey": "editorWarning.border",
     "category": "",
-    "dark": "#ffffff",
+    "dark": "#ffffff00",
     "darkRef": "--slds-g-color-neutral-base-0",
-    "light": "#ffffff",
+    "light": "#ffffff00",
     "lightRef": "--slds-g-color-neutral-base-100"
   },
   {
     "token": "",
     "vscodeKey": "editorWhitespace.foreground",
     "category": "",
-    "dark": "#e5e5e5",
+    "dark": "#e5e5e529",
     "darkRef": "--slds-g-color-neutral-base-10",
-    "light": "#2e2e2e",
+    "light": "#2e2e2e33",
     "lightRef": "--slds-g-color-neutral-base-20"
   },
   {
@@ -1448,7 +1502,7 @@
     "category": "",
     "dark": "#7f8ced",
     "darkRef": "--slds-g-color-palette-indigo-40",
-    "light": "#5867e8",
+    "light": "#3a49da",
     "lightRef": "--slds-g-color-palette-indigo-50"
   },
   {
@@ -1457,7 +1511,7 @@
     "category": "",
     "dark": "#848484",
     "darkRef": "--slds-g-color-neutral-base-45",
-    "light": "#939393",
+    "light": "#5c5c5c",
     "lightRef": "--slds-g-color-palette-neutral-60"
   },
   {
@@ -1466,7 +1520,7 @@
     "category": "",
     "dark": "#e4a201",
     "darkRef": "--slds-r-color-warning-70",
-    "light": "#a96504",
+    "light": "#9a5803",
     "lightRef": "--slds-g-color-warning-base-50"
   },
   {
@@ -1509,9 +1563,9 @@
     "token": "",
     "vscodeKey": "icon.foreground",
     "category": "",
-    "dark": "#c9c9c9",
+    "dark": "#696969",
     "darkRef": "--slds-g-color-neutral-base-20",
-    "light": "#5c5c5c",
+    "light": "#8c8c8c",
     "lightRef": "--slds-g-color-neutral-base-40"
   },
   {
@@ -1536,16 +1590,16 @@
     "token": "",
     "vscodeKey": "inputOption.activeBackground",
     "category": "",
-    "dark": "#066afe",
+    "dark": "#066afe3e",
     "darkRef": "--slds-g-color-palette-electric-blue-50",
-    "light": "#066afe",
+    "light": "#066afe33",
     "lightRef": "--slds-g-color-palette-electric-blue-50"
   },
   {
     "token": "",
     "vscodeKey": "inputOption.activeBorder",
     "category": "",
-    "dark": "#0176d3",
+    "dark": "#0176d300",
     "darkRef": "--slds-g-color-palette-blue-50",
     "light": "#0176d300",
     "lightRef": "--slds-r-color-info-50 @ 0%"
@@ -1565,7 +1619,7 @@
     "category": "",
     "dark": "#ffffff",
     "darkRef": "--slds-g-color-neutral-base-0",
-    "light": "#ffffff",
+    "light": "#181818",
     "lightRef": "--slds-g-color-neutral-base-100"
   },
   {
@@ -1581,7 +1635,7 @@
     "token": "",
     "vscodeKey": "list.focusBackground",
     "category": "",
-    "dark": "#032d60",
+    "dark": "#066afe",
     "darkRef": "--slds-g-color-palette-blue-80",
     "light": "#d6e6ff",
     "lightRef": "--slds-r-color-brand-90"
@@ -1689,9 +1743,9 @@
     "token": "",
     "vscodeKey": "listFilterWidget.outline",
     "category": "",
-    "dark": "#000000",
+    "dark": "#00000000",
     "darkRef": "--slds-g-color-neutral-base-100",
-    "light": "#000000",
+    "light": "#00000000",
     "lightRef": "--slds-g-color-neutral-base-0"
   },
   {
@@ -1709,7 +1763,7 @@
     "category": "",
     "dark": "#444444",
     "darkRef": "--slds-g-color-neutral-base-70",
-    "light": "#181818",
+    "light": "#18181885",
     "lightRef": "--slds-g-color-neutral-base-10"
   },
   {
@@ -1734,9 +1788,9 @@
     "token": "",
     "vscodeKey": "menu.selectionBorder",
     "category": "",
-    "dark": "#000000",
+    "dark": "#00000000",
     "darkRef": "--slds-g-color-neutral-base-100",
-    "light": "#000000",
+    "light": "#00000000",
     "lightRef": "--slds-g-color-neutral-base-0"
   },
   {
@@ -1763,7 +1817,7 @@
     "category": "",
     "dark": "#444444",
     "darkRef": "--slds-g-color-neutral-base-70",
-    "light": "#000000",
+    "light": "#0000001a",
     "lightRef": "--slds-g-color-neutral-base-0"
   },
   {
@@ -1781,7 +1835,7 @@
     "category": "",
     "dark": "#24242499",
     "darkRef": "--slds-g-color-surface-1 @ 60%",
-    "light": "#e5e5e5",
+    "light": "#e5e5e580",
     "lightRef": "--slds-g-color-neutral-base-90"
   },
   {
@@ -1797,36 +1851,36 @@
     "token": "",
     "vscodeKey": "merge.currentContentBackground",
     "category": "",
-    "dark": "#056764",
+    "dark": "#05676499",
     "darkRef": "--slds-g-color-palette-teal-60",
-    "light": "#acf3e4",
+    "light": "#acf3e480",
     "lightRef": "--slds-g-color-palette-teal-90"
   },
   {
     "token": "",
     "vscodeKey": "merge.currentHeaderBackground",
     "category": "",
-    "dark": "#056764",
+    "dark": "#05676499",
     "darkRef": "--slds-g-color-palette-teal-60",
-    "light": "#04e1cb",
+    "light": "#04e1cb80",
     "lightRef": "--slds-g-color-palette-teal-80"
   },
   {
     "token": "",
     "vscodeKey": "merge.incomingContentBackground",
     "category": "",
-    "dark": "#0b5cab",
+    "dark": "#0b5cab99",
     "darkRef": "--slds-g-color-palette-blue-60",
-    "light": "#d6e6ff",
+    "light": "#d6e6ff80",
     "lightRef": "--slds-g-color-palette-electric-blue-90"
   },
   {
     "token": "",
     "vscodeKey": "merge.incomingHeaderBackground",
     "category": "",
-    "dark": "#0b5cab",
+    "dark": "#0b5cab99",
     "darkRef": "--slds-g-color-palette-blue-60",
-    "light": "#a8cbff",
+    "light": "#a8cbff80",
     "lightRef": "--slds-g-color-palette-electric-blue-80"
   },
   {
@@ -1851,18 +1905,18 @@
     "token": "",
     "vscodeKey": "minimap.findMatchHighlight",
     "category": "",
-    "dark": "#5c5c5c",
+    "dark": "#5c5c5c99",
     "darkRef": "--slds-g-color-neutral-base-60",
-    "light": "#a0a0a0",
+    "light": "#a0a0a080",
     "lightRef": "--slds-g-color-neutral-base-65"
   },
   {
     "token": "",
     "vscodeKey": "minimap.selectionHighlight",
     "category": "",
-    "dark": "#0b5cab",
+    "dark": "#0b5cab99",
     "darkRef": "--slds-g-color-palette-blue-60",
-    "light": "#a8cbff",
+    "light": "#a8cbff80",
     "lightRef": "--slds-g-color-palette-electric-blue-80"
   },
   {
@@ -1968,27 +2022,27 @@
     "token": "",
     "vscodeKey": "notificationsErrorIcon.foreground",
     "category": "",
-    "dark": "#fe7298",
+    "dark": "#e3066a",
     "darkRef": "--slds-r-color-error-65",
-    "light": "#e3066a",
+    "light": "#b60554",
     "lightRef": "--slds-g-color-error-base-50"
   },
   {
     "token": "",
     "vscodeKey": "notificationsInfoIcon.foreground",
     "category": "",
-    "dark": "#1b96ff",
+    "dark": "#0176d3",
     "darkRef": "--slds-r-color-info-60",
-    "light": "#1b96ff",
+    "light": "#0b5cab",
     "lightRef": "--slds-g-color-info-base-60"
   },
   {
     "token": "",
     "vscodeKey": "notificationsWarningIcon.foreground",
     "category": "",
-    "dark": "#ca8501",
+    "dark": "#a96504",
     "darkRef": "--slds-r-color-warning-60",
-    "light": "#ca8501",
+    "light": "#8c4b02",
     "lightRef": "--slds-g-color-warning-base-60"
   },
   {
@@ -2004,7 +2058,7 @@
     "token": "",
     "vscodeKey": "panelSection.border",
     "category": "",
-    "dark": "#757575",
+    "dark": "#75757559",
     "darkRef": "--slds-g-color-neutral-base-50",
     "light": "#84848459",
     "lightRef": "--slds-g-color-neutral-base-55 @ 35%"
@@ -2031,9 +2085,9 @@
     "token": "",
     "vscodeKey": "panelTitle.inactiveForeground",
     "category": "",
-    "dark": "#e5e5e5",
+    "dark": "#e5e5e599",
     "darkRef": "--slds-g-color-neutral-base-10",
-    "light": "#444444",
+    "light": "#444444bf",
     "lightRef": "--slds-g-color-neutral-base-30"
   },
   {
@@ -2058,9 +2112,9 @@
     "token": "",
     "vscodeKey": "peekViewEditor.matchHighlightBackground",
     "category": "",
-    "dark": "#dd7a01",
+    "dark": "#dd7a0199",
     "darkRef": "--slds-g-color-palette-orange-40",
-    "light": "#e4a201",
+    "light": "#e4a201de",
     "lightRef": "--slds-g-color-warning-base-70"
   },
   {
@@ -2112,18 +2166,18 @@
     "token": "",
     "vscodeKey": "peekViewResult.matchHighlightBackground",
     "category": "",
-    "dark": "#a96404",
+    "dark": "#a964044d",
     "darkRef": "--slds-g-color-palette-orange-50",
-    "light": "#a96404",
+    "light": "#a964044d",
     "lightRef": "--slds-g-color-palette-orange-50"
   },
   {
     "token": "",
     "vscodeKey": "peekViewResult.selectionBackground",
     "category": "",
-    "dark": "#032d60",
+    "dark": "#032d6033",
     "darkRef": "--slds-g-color-palette-blue-80",
-    "light": "#1b96ff",
+    "light": "#1b96ff33",
     "lightRef": "--slds-g-color-palette-blue-60"
   },
   {
@@ -2150,7 +2204,7 @@
     "category": "",
     "dark": "#c9c9c9",
     "darkRef": "--slds-g-color-neutral-base-20",
-    "light": "#5c5c5c",
+    "light": "#5c5c5ce6",
     "lightRef": "--slds-g-color-neutral-base-40"
   },
   {
@@ -2166,7 +2220,7 @@
     "token": "",
     "vscodeKey": "pickerGroup.border",
     "category": "",
-    "dark": "#444444",
+    "dark": "#44444400",
     "darkRef": "--slds-g-color-neutral-base-70",
     "light": "#c9c9c9",
     "lightRef": "--slds-g-color-neutral-base-80"
@@ -2204,25 +2258,25 @@
     "category": "",
     "dark": "#c9c9c966",
     "darkRef": "--slds-g-color-palette-neutral-20 @ 40%",
-    "light": "#181818",
+    "light": "#18181899",
     "lightRef": "--slds-g-color-neutral-base-10"
   },
   {
     "token": "",
     "vscodeKey": "scrollbarSlider.background",
     "category": "",
-    "dark": "#757575",
+    "dark": "#75757566",
     "darkRef": "--slds-g-color-neutral-base-50",
-    "light": "#5c5c5c",
+    "light": "#5c5c5c66",
     "lightRef": "--slds-g-color-neutral-base-40"
   },
   {
     "token": "",
     "vscodeKey": "scrollbarSlider.hoverBackground",
     "category": "",
-    "dark": "#696969",
+    "dark": "#696969b3",
     "darkRef": "--slds-g-color-neutral-base-55",
-    "light": "#5c5c5c",
+    "light": "#5c5c5cb3",
     "lightRef": "--slds-g-color-neutral-base-40"
   },
   {
@@ -2247,9 +2301,9 @@
     "token": "",
     "vscodeKey": "settings.focusedRowBackground",
     "category": "",
-    "dark": "#ffffff",
+    "dark": "#ffffff07",
     "darkRef": "--slds-g-color-neutral-base-0",
-    "light": "#ffffff",
+    "light": "#ffffff07",
     "lightRef": "--slds-g-color-neutral-base-100"
   },
   {
@@ -2283,9 +2337,9 @@
     "token": "",
     "vscodeKey": "sideBarSectionHeader.background",
     "category": "",
-    "dark": "#000000",
+    "dark": "#00000000",
     "darkRef": "--slds-g-color-neutral-base-100",
-    "light": "#000000",
+    "light": "#00000000",
     "lightRef": "--slds-g-color-neutral-base-0"
   },
   {
@@ -2312,7 +2366,7 @@
     "category": "",
     "dark": "#aeaeae",
     "darkRef": "--slds-g-color-palette-neutral-30",
-    "light": "#757575",
+    "light": "#696969",
     "lightRef": "--slds-g-color-neutral-base-50"
   },
   {
@@ -2373,9 +2427,9 @@
     "token": "",
     "vscodeKey": "statusBarItem.activeBackground",
     "category": "",
-    "dark": "#ffffff",
+    "dark": "#ffffff25",
     "darkRef": "--slds-g-color-neutral-base-0",
-    "light": "#ffffff",
+    "light": "#ffffff25",
     "lightRef": "--slds-g-color-neutral-base-100"
   },
   {
@@ -2384,7 +2438,7 @@
     "category": "",
     "dark": "#444444",
     "darkRef": "--slds-g-color-neutral-base-70",
-    "light": "#ffffff",
+    "light": "#ffffff1f",
     "lightRef": "--slds-g-color-neutral-base-100"
   },
   {
@@ -2427,9 +2481,9 @@
     "token": "",
     "vscodeKey": "tab.activeBorderTop",
     "category": "",
-    "dark": "#000000",
+    "dark": "#00000000",
     "darkRef": "--slds-g-color-neutral-base-100",
-    "light": "#000000",
+    "light": "#00000000",
     "lightRef": "--slds-g-color-neutral-base-0"
   },
   {
@@ -2465,7 +2519,7 @@
     "category": "",
     "dark": "#c9c9c9",
     "darkRef": "--slds-g-color-neutral-base-20",
-    "light": "#444444",
+    "light": "#444444b3",
     "lightRef": "--slds-g-color-neutral-base-30"
   },
   {
@@ -2481,16 +2535,16 @@
     "token": "",
     "vscodeKey": "terminal.ansiBlue",
     "category": "",
-    "dark": "#0250d9",
+    "dark": "#5f9ffe",
     "darkRef": "--slds-g-color-palette-electric-blue-60",
-    "light": "#014486",
+    "light": "#0b5cab",
     "lightRef": "--slds-r-color-info-30"
   },
   {
     "token": "",
     "vscodeKey": "terminal.ansiBrightBlack",
     "category": "",
-    "dark": "#5c5c5c",
+    "dark": "#757575",
     "darkRef": "--slds-g-color-neutral-base-60",
     "light": "#757575",
     "lightRef": "--slds-g-color-neutral-base-50"
@@ -2499,7 +2553,7 @@
     "token": "",
     "vscodeKey": "terminal.ansiBrightBlue",
     "category": "",
-    "dark": "#4992fe",
+    "dark": "#7cb1fe",
     "darkRef": "--slds-g-color-palette-electric-blue-40",
     "light": "#0176d3",
     "lightRef": "--slds-r-color-info-50"
@@ -2508,36 +2562,36 @@
     "token": "",
     "vscodeKey": "terminal.ansiBrightCyan",
     "category": "",
-    "dark": "#06a59a",
+    "dark": "#76ead9",
     "darkRef": "--slds-g-color-palette-teal-40",
-    "light": "#01c3b3",
+    "light": "#0b827c",
     "lightRef": "--slds-g-color-palette-teal-70"
   },
   {
     "token": "",
     "vscodeKey": "terminal.ansiBrightGreen",
     "category": "",
-    "dark": "#45c65a",
+    "dark": "#91db8b",
     "darkRef": "--slds-g-color-palette-green-30",
-    "light": "#45c65a",
+    "light": "#2e844a",
     "lightRef": "--slds-g-color-palette-green-70"
   },
   {
     "token": "",
     "vscodeKey": "terminal.ansiBrightRed",
     "category": "",
-    "dark": "#fe5c4c",
+    "dark": "#ff906e",
     "darkRef": "--slds-g-color-palette-red-40",
-    "light": "#fe8f7d",
+    "light": "#d83a00",
     "lightRef": "--slds-g-color-palette-red-70"
   },
   {
     "token": "",
     "vscodeKey": "terminal.ansiBrightWhite",
     "category": "",
-    "dark": "#f3f3f3",
+    "dark": "#aeaeae",
     "darkRef": "--slds-s-button-color-background-focus",
-    "light": "#a0a0a0",
+    "light": "#757575",
     "lightRef": "--slds-g-color-neutral-base-65"
   },
   {
@@ -2546,32 +2600,32 @@
     "category": "",
     "dark": "#e4a201",
     "darkRef": "--slds-g-color-palette-yellow-30",
-    "light": "#e4a201",
+    "light": "#a96504",
     "lightRef": "--slds-g-color-palette-yellow-70"
   },
   {
     "token": "",
     "vscodeKey": "terminal.ansiCyan",
     "category": "",
-    "dark": "#056764",
+    "dark": "#03b4a7",
     "darkRef": "--slds-r-color-success-40",
-    "light": "#06a59a",
+    "light": "#056764",
     "lightRef": "--slds-g-color-palette-teal-60"
   },
   {
     "token": "",
     "vscodeKey": "terminal.ansiRed",
     "category": "",
-    "dark": "#e3066a",
+    "dark": "#fe5c4c",
     "darkRef": "--slds-g-color-error-base-50",
-    "light": "#fe5c4c",
+    "light": "#aa3001",
     "lightRef": "--slds-g-color-palette-red-60"
   },
   {
     "token": "",
     "vscodeKey": "terminal.ansiWhite",
     "category": "",
-    "dark": "#e5e5e5",
+    "dark": "#aeaeae",
     "darkRef": "--slds-g-color-neutral-base-10",
     "light": "#5c5c5c",
     "lightRef": "--slds-g-color-neutral-base-40"
@@ -2580,9 +2634,9 @@
     "token": "",
     "vscodeKey": "terminal.ansiYellow",
     "category": "",
-    "dark": "#a96504",
+    "dark": "#ca8501",
     "darkRef": "--slds-g-color-warning-base-50",
-    "light": "#ba7503",
+    "light": "#8c4b02",
     "lightRef": "--slds-g-color-warning-base-55"
   },
   {
@@ -2591,14 +2645,14 @@
     "category": "",
     "dark": "#444444",
     "darkRef": "--slds-g-color-neutral-base-70",
-    "light": "#939393",
+    "light": "#93939359",
     "lightRef": "--slds-g-color-neutral-base-60"
   },
   {
     "token": "",
     "vscodeKey": "terminal.foreground",
     "category": "",
-    "dark": "#7cb1fe",
+    "dark": "#aeaeae",
     "darkRef": "--slds-g-color-palette-electric-blue-30",
     "light": "#0250d9",
     "lightRef": "--slds-g-color-palette-electric-blue-40"
@@ -2607,7 +2661,7 @@
     "token": "",
     "vscodeKey": "terminal.selectionBackground",
     "category": "",
-    "dark": "#066afe",
+    "dark": "#066afe40",
     "darkRef": "--slds-g-color-palette-electric-blue-50",
     "light": "#a8cbff",
     "lightRef": "--slds-g-color-palette-electric-blue-80"
@@ -2652,9 +2706,9 @@
     "token": "",
     "vscodeKey": "titleBar.border",
     "category": "",
-    "dark": "#000000",
+    "dark": "#00000000",
     "darkRef": "--slds-g-color-neutral-base-100",
-    "light": "#000000",
+    "light": "#00000000",
     "lightRef": "--slds-g-color-neutral-base-0"
   },
   {
@@ -2670,9 +2724,9 @@
     "token": "",
     "vscodeKey": "titleBar.inactiveForeground",
     "category": "",
-    "dark": "#c9c9c9",
+    "dark": "#c9c9c999",
     "darkRef": "--slds-g-color-neutral-base-20",
-    "light": "#444444",
+    "light": "#44444499",
     "lightRef": "--slds-g-color-neutral-base-30"
   },
   {
@@ -2690,16 +2744,16 @@
     "category": "",
     "dark": "#181818",
     "darkRef": "--slds-g-color-neutral-base-90",
-    "light": "#000000",
+    "light": "#00000050",
     "lightRef": "--slds-g-color-neutral-base-0"
   },
   {
     "token": "",
     "vscodeKey": "widget.shadow",
     "category": "",
-    "dark": "#000000",
+    "dark": "#0000005c",
     "darkRef": "--slds-g-color-neutral-base-100",
-    "light": "#181818",
+    "light": "#18181829",
     "lightRef": "--slds-g-color-neutral-base-10"
   }
 ]
