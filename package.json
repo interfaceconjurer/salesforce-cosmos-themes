@@ -39,12 +39,12 @@
   "icon": "./resources/theme-icon.png",
   "repository": {
     "type": "git",
-    "url": "https://github.com/forcedotcom/salesforcedx-vscode-themes"
+    "url": "https://github.com/interfaceconjurer/salesforce-cosmos-themes"
   },
   "bugs": {
-    "url": "https://github.com/forcedotcom/salesforcedx-vscode-themes/issues"
+    "url": "https://github.com/interfaceconjurer/salesforce-cosmos-themes/issues"
   },
-  "homepage": "https://github.com/forcedotcom/salesforcedx-vscode-themes#readme",
+  "homepage": "https://github.com/interfaceconjurer/salesforce-cosmos-themes#readme",
   "devDependencies": {
     "@salesforce-ux/design-system-2": "^2.0.0"
   }

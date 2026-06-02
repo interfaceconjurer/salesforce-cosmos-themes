@@ -6,6 +6,7 @@ node_modules/**
 .gitattributes
 optimize-images.sh
 resources/cosmos-tokens-full.json
+resources/originals/**
 *.vsix
 .env
 .DS_Store
