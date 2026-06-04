@@ -4159,5 +4159,50 @@
     "darkRef": "--slds-g-color-neutral-base-70",
     "light": "#c9c9c9",
     "lightRef": "--slds-g-color-neutral-base-20"
+  },
+  {
+    "token": "",
+    "vscodeKey": "keybindingLabel.foreground",
+    "category": "",
+    "dark": "#c9c9c9",
+    "darkRef": "--slds-g-color-neutral-base-20",
+    "light": "#181818",
+    "lightRef": "--slds-g-color-neutral-base-90"
+  },
+  {
+    "token": "",
+    "vscodeKey": "keybindingLabel.background",
+    "category": "",
+    "dark": "#2e2e2e",
+    "darkRef": "--slds-g-color-neutral-base-80",
+    "light": "#e5e5e5",
+    "lightRef": "--slds-g-color-neutral-base-10"
+  },
+  {
+    "token": "",
+    "vscodeKey": "keybindingLabel.border",
+    "category": "",
+    "dark": "#444444",
+    "darkRef": "--slds-g-color-neutral-base-70",
+    "light": "#c9c9c9",
+    "lightRef": "--slds-g-color-neutral-base-20"
+  },
+  {
+    "token": "",
+    "vscodeKey": "keybindingLabel.bottomBorder",
+    "category": "",
+    "dark": "#5c5c5c",
+    "darkRef": "--slds-g-color-neutral-base-60",
+    "light": "#aeaeae",
+    "lightRef": "--slds-g-color-neutral-base-30"
+  },
+  {
+    "token": "",
+    "vscodeKey": "toolbar.hoverBackground",
+    "category": "",
+    "dark": "#2e2e2e",
+    "darkRef": "--slds-g-color-neutral-base-80",
+    "light": "#e5e5e5",
+    "lightRef": "--slds-g-color-neutral-base-10"
   }
 ]
