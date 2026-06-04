@@ -4006,5 +4006,14 @@
     "darkRef": "--slds-g-color-neutral-base-60",
     "light": "#aeaeae",
     "lightRef": "--slds-g-color-neutral-base-30"
+  },
+  {
+    "token": "",
+    "vscodeKey": "strongForeground",
+    "category": "",
+    "dark": "#ffffff",
+    "darkRef": "--slds-g-color-neutral-base-100",
+    "light": "#181818",
+    "lightRef": "--slds-g-color-neutral-base-90"
   }
 ]

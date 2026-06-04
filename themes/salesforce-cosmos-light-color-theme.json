@@ -2262,6 +2262,7 @@
     "tab.unfocusedActiveBackground": "#f3f3f3",
     "tab.unfocusedActiveForeground": "#5c5c5c",
     "tab.unfocusedInactiveBackground": "#f3f3f3",
-    "tab.unfocusedInactiveForeground": "#aeaeae"
+    "tab.unfocusedInactiveForeground": "#aeaeae",
+    "strongForeground": "#181818"
   }
 }
