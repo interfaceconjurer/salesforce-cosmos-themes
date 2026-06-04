@@ -872,7 +872,7 @@
     "category": "",
     "dark": "#c9c9c9",
     "darkRef": "--slds-g-color-neutral-base-20",
-    "light": "#5c5c5c",
+    "light": "#5c5c5ccc",
     "lightRef": "--slds-g-color-neutral-base-40"
   },
   {
