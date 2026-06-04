@@ -2263,6 +2263,22 @@
     "tab.unfocusedActiveForeground": "#5c5c5c",
     "tab.unfocusedInactiveBackground": "#f3f3f3",
     "tab.unfocusedInactiveForeground": "#aeaeae",
-    "strongForeground": "#181818"
+    "strongForeground": "#181818",
+    "agentFeedbackInputWidget.border": "#c9c9c9",
+    "agentsUpdateButton.downloadingBackground": "#0176d366",
+    "agentsUpdateButton.downloadedBackground": "#0176d3b3",
+    "activeSessionView.background": "#ffffff",
+    "inactiveSessionView.background": "#f3f3f3",
+    "activeSessionView.foreground": "#2e2e2e",
+    "inactiveSessionView.foreground": "#2e2e2e",
+    "chat.requestBorder": "#e5e5e5",
+    "chat.requestBackground": "#f3f3f3",
+    "chat.avatarBackground": "#e5e5e5",
+    "chat.avatarForeground": "#2e2e2e",
+    "chat.requestCodeBorder": "#c9c9c9",
+    "chat.checkpointSeparator": "#e5e5e5",
+    "chat.linesAddedForeground": "#2e844a",
+    "chat.linesRemovedForeground": "#a00449",
+    "textPreformat.border": "#c9c9c9"
   }
 }

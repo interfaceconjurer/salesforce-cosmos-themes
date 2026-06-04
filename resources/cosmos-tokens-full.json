@@ -4015,5 +4015,149 @@
     "darkRef": "--slds-g-color-neutral-base-100",
     "light": "#181818",
     "lightRef": "--slds-g-color-neutral-base-90"
+  },
+  {
+    "token": "",
+    "vscodeKey": "agentFeedbackInputWidget.border",
+    "category": "",
+    "dark": "#444444",
+    "darkRef": "--slds-g-color-neutral-base-70",
+    "light": "#c9c9c9",
+    "lightRef": "--slds-g-color-neutral-base-20"
+  },
+  {
+    "token": "",
+    "vscodeKey": "agentsUpdateButton.downloadingBackground",
+    "category": "",
+    "dark": "#0176d366",
+    "darkRef": "--slds-r-color-info-50",
+    "light": "#0176d366",
+    "lightRef": "--slds-r-color-info-50"
+  },
+  {
+    "token": "",
+    "vscodeKey": "agentsUpdateButton.downloadedBackground",
+    "category": "",
+    "dark": "#0176d3b3",
+    "darkRef": "--slds-r-color-info-50",
+    "light": "#0176d3b3",
+    "lightRef": "--slds-r-color-info-50"
+  },
+  {
+    "token": "",
+    "vscodeKey": "activeSessionView.background",
+    "category": "",
+    "dark": "#181818",
+    "darkRef": "--slds-g-color-neutral-base-90",
+    "light": "#ffffff",
+    "lightRef": "--slds-g-color-neutral-base-100"
+  },
+  {
+    "token": "",
+    "vscodeKey": "inactiveSessionView.background",
+    "category": "",
+    "dark": "#242424",
+    "darkRef": "--slds-g-color-neutral-base-85",
+    "light": "#f3f3f3",
+    "lightRef": "--slds-g-color-neutral-base-5"
+  },
+  {
+    "token": "",
+    "vscodeKey": "activeSessionView.foreground",
+    "category": "",
+    "dark": "#c9c9c9",
+    "darkRef": "--slds-g-color-neutral-base-20",
+    "light": "#2e2e2e",
+    "lightRef": "--slds-g-color-neutral-base-80"
+  },
+  {
+    "token": "",
+    "vscodeKey": "inactiveSessionView.foreground",
+    "category": "",
+    "dark": "#c9c9c9",
+    "darkRef": "--slds-g-color-neutral-base-20",
+    "light": "#2e2e2e",
+    "lightRef": "--slds-g-color-neutral-base-80"
+  },
+  {
+    "token": "",
+    "vscodeKey": "chat.requestBorder",
+    "category": "",
+    "dark": "#2e2e2e",
+    "darkRef": "--slds-g-color-neutral-base-80",
+    "light": "#e5e5e5",
+    "lightRef": "--slds-g-color-neutral-base-10"
+  },
+  {
+    "token": "",
+    "vscodeKey": "chat.requestBackground",
+    "category": "",
+    "dark": "#242424",
+    "darkRef": "--slds-g-color-neutral-base-85",
+    "light": "#f3f3f3",
+    "lightRef": "--slds-g-color-neutral-base-5"
+  },
+  {
+    "token": "",
+    "vscodeKey": "chat.avatarBackground",
+    "category": "",
+    "dark": "#2e2e2e",
+    "darkRef": "--slds-g-color-neutral-base-80",
+    "light": "#e5e5e5",
+    "lightRef": "--slds-g-color-neutral-base-10"
+  },
+  {
+    "token": "",
+    "vscodeKey": "chat.avatarForeground",
+    "category": "",
+    "dark": "#c9c9c9",
+    "darkRef": "--slds-g-color-neutral-base-20",
+    "light": "#2e2e2e",
+    "lightRef": "--slds-g-color-neutral-base-80"
+  },
+  {
+    "token": "",
+    "vscodeKey": "chat.requestCodeBorder",
+    "category": "",
+    "dark": "#444444",
+    "darkRef": "--slds-g-color-neutral-base-70",
+    "light": "#c9c9c9",
+    "lightRef": "--slds-g-color-neutral-base-20"
+  },
+  {
+    "token": "",
+    "vscodeKey": "chat.checkpointSeparator",
+    "category": "",
+    "dark": "#2e2e2e",
+    "darkRef": "--slds-g-color-neutral-base-80",
+    "light": "#e5e5e5",
+    "lightRef": "--slds-g-color-neutral-base-10"
+  },
+  {
+    "token": "",
+    "vscodeKey": "chat.linesAddedForeground",
+    "category": "",
+    "dark": "#2e844a",
+    "darkRef": "--slds-g-color-palette-green-50",
+    "light": "#2e844a",
+    "lightRef": "--slds-g-color-palette-green-50"
+  },
+  {
+    "token": "",
+    "vscodeKey": "chat.linesRemovedForeground",
+    "category": "",
+    "dark": "#e3066a",
+    "darkRef": "--slds-g-color-palette-hot-pink-40",
+    "light": "#a00449",
+    "lightRef": "--slds-g-color-palette-hot-pink-50"
+  },
+  {
+    "token": "",
+    "vscodeKey": "textPreformat.border",
+    "category": "",
+    "dark": "#444444",
+    "darkRef": "--slds-g-color-neutral-base-70",
+    "light": "#c9c9c9",
+    "lightRef": "--slds-g-color-neutral-base-20"
   }
 ]
